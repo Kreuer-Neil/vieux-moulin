@@ -1,0 +1,13 @@
+*
+!.gitignore
+!README.md
+!package.json
+!db_backups
+!db_backups/*
+!wp-content/
+wp-content/*
+!wp-content/themes/
+!wp-content/themes/*
+!wp-content/themes/vm_25
+!wp-content/themes/vm_25/*
+!wp-content/themes/vm_25/**/*
