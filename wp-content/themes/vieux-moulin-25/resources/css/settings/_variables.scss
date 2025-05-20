@@ -1,0 +1,100 @@
+:root {
+  font-size: 16px;
+
+  //* Base common colors
+
+
+  //* Dark theme exclusive colors
+
+
+  //* Numbers
+  // maximums
+  --number-max-container-width: 90rem; //1440px
+  --number-max-container-width-extended: 120rem; // 1920px
+  --number-max-text-width: 45rem; //720px
+
+  // Paddings
+  --number-padding-little: .125rem; // 2px
+  --number-padding-mini: .25rem; // 4px
+  --number-padding-small: .5rem; // 8px
+  --number-padding-simple: .75rem; // 12px
+  --number-padding-medium: 1rem; // 16px
+  --number-padding-double: 1.5rem; // 24px
+  --number-padding-semiheavy: 2rem; // 32px
+  --number-padding-heavy: 3rem; // 48px
+
+  // Font sizes
+  --number-fsize-title: 2.5rem;
+  --number-fsize-subtitle: 2rem;
+
+  // Auto gaps
+  --number-gap-sections: 2rem;
+
+
+  //* URLs
+
+
+  //* Animations
+  --anim-none: none;
+
+  //* font-families
+  --font-fam-text: "Poppins", Helvetica, Arial, sans-serif;
+  --font-fam-titles: "DejaVu Sans", Helvetica, Arial, sans-serif;
+
+
+  //** Light theme setup
+  --color-main-bg: #f1f1f1;
+  --color-main-text: #1e1e1e;
+
+
+  //* Logo colors
+
+
+  //* Gradients colors
+  --color-main-purple-gradient-light: #fff;
+  --color-main-purple-gradient-deep: #fff;
+
+  --color-main-orange-gradient-light: #fff;
+  --color-main-orange-gradient-deep: #fff;
+}
+
+.dark {
+  //** Base dark theme colors
+
+
+  //* Logo and SVGs colors
+
+  //* items colors
+
+
+  //* Gradients colors
+
+  // Icons
+
+}
+
+// Re-setting root to assign correct values to gradients (& other composed values if needed)
+.custom-page {
+  // logo values
+
+  // Page main gradients
+
+  // Logo and SVGs gradients
+
+  // "Neon box" gradients
+
+  // Link gradients
+
+  // Projects box exclusive gradients
+
+  // Icons gradients
+}
+
+@keyframes arrowMove {
+  from {
+    background-position: left center;
+  }
+  to {
+    background-position: right center;
+  }
+}
