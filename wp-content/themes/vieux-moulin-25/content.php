@@ -1,5 +1,3 @@
-<?php get_header(); ?>
-
 <?php
 if (have_rows('main-content')): while (have_rows('main-content')):
     the_row();
@@ -9,15 +7,7 @@ if (have_rows('main-content')): while (have_rows('main-content')):
 
     <h2 class="content__title"><?= get_sub_field('title') ?></h2>
     <p class="content__text"><?= get_sub_field('text_content') ?></p>
-
-    <?php if ($rowType === 'cta_donation'): ?>
-    <div class="content__subcontainer content__subcontainer--cta">
-        <a title="À propos des dons" href="<?= ($donation_page = get_page_link('donation')).'#about' ?>"
-           class="cta cta--about">En savoir plus sur les dons</a>
-        <a title="Aller vers la page de dons" href="<?= $donation_page.'#donate' ?>" class="cta">Donner</a>
-    </div>
-
-<?php elseif ($rowType === 'site'): ?>
+    <?php if ($rowType === 'site'): ?>
     <div class="content__subcontainer content__subcontainer--site">
 
         <?php $sites = new WP_Query([
@@ -37,10 +27,11 @@ if (have_rows('main-content')): while (have_rows('main-content')):
         <?php endwhile; endif; ?>
     </div>
 
-<?php elseif ($rowType === 'article'): ?>
-
-    <div class="content__subcontainer content__subcontainer--articles">
-
+<?php elseif ($rowType === 'cta_donation'): ?>
+    <div class="content__subcontainer content__subcontainer--cta">
+        <a title="À propos des dons" href="<?= '' // donations .'#about' ?>"
+           class="cta cta--about">En savoir plus sur les dons</a>
+        <a title="Aller vers la page de dons" href="<?= '' // donations .'#donate' ?>" class="cta">Donner</a>
     </div>
 <?php endif; ?>
 
@@ -49,5 +40,3 @@ if (have_rows('main-content')): while (have_rows('main-content')):
 else: ?>
     <p id="empty">La page est vide.</p>
 <?php endif; ?>
-
-<?php get_footer(); ?>

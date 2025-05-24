@@ -5,8 +5,6 @@
 !vite.config.js
 !manifest.json
 
-!db_backups
-!db_backups/*
 
 !wp-content/
 wp-content/*
@@ -15,7 +13,12 @@ wp-content/*
 !wp-content/themes/vieux-moulin-25
 !wp-content/themes/vieux-moulin-25/*
 !wp-content/themes/vieux-moulin-25/**/*
+wp-content/themes/vieux-moulin-25/public/
 wp-content/themes/vieux-moulin-25/public/*
 
 
 /**/.DS_Store
+
+
+!db-backups
+!db-backups/*

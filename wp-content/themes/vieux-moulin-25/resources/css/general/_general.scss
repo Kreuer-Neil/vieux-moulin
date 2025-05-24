@@ -1,0 +1,41 @@
+
+//* General style
+
+
+.custom-theme {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-main-bg);
+  font-family: var(--font-fam-text);
+
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-fam-titles);
+  }
+
+  main {
+    padding: var(--number-padding-double) 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+// Admin bar is at 10000 -> adapt
+#escape-link {
+  position: fixed;
+  top: -5rem;
+  left: var(--number-padding-mini);
+  z-index: 5;
+  background-color: var(--color-main-bg);
+  padding: var(--number-padding-medium) var(--number-padding-double);
+  height: auto;
+
+  &:focus {
+    top: var(--number-padding-mini);
+  }
+}
+
+

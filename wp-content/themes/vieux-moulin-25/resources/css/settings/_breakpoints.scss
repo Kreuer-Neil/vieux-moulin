@@ -1,0 +1,33 @@
+//Breakpoints for mediaqueries
+
+//$mobile: @media screen and (min-width: 750px);
+
+$screen-sm-min: 36rem; // 576px
+$screen-md-min: 48rem; // 768px
+$screen-lg-min: 64rem; // 1024px
+$screen-xl-min: 90rem; // 1440px
+
+
+@mixin sm {
+  @media (min-width: #{$screen-sm-min}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: #{$screen-md-min}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (min-width: #{$screen-lg-min}) {
+    @content;
+  }
+}
+
+@mixin xl {
+  @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}

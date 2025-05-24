@@ -1,0 +1,106 @@
+.content {
+  &__container {
+    max-width: var(--number-max-container-width);
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--number-padding-simple);
+    align-items: center;
+    padding: 0 var(--number-padding-small);
+  }
+
+  &__title {
+    font-family: var(--font-fam-titles);
+    font-size: var(--number-fsize-section-title);
+  }
+
+  &__text {
+    max-width: var(--number-max-text-width);
+  }
+
+  &__subcontainer {
+    display: flex;
+
+    &--site, &--article {
+      display: grid;
+      grid-auto-flow: column;
+      width: calc(100% - (var(--number-padding-medium)));
+    }
+
+    &--site {
+      padding: var(--number-padding-small);
+      border-radius: var(--number-container-radius);
+      background-color: var(--color-main-subframe);
+
+      gap: var(--number-padding-small);
+      grid-auto-columns: 1fr 1fr;
+
+      max-width: var(--number-max-text-width);
+    }
+
+    &--article {
+      gap: var(--number-padding-simple);
+      grid-auto-columns: 1fr 1fr 1fr;
+
+      max-width: var(--number-max-container-width);
+    }
+  }
+
+  &__cta {
+    padding: var(--number-padding-small) var(--number-padding-medium);
+    background-color: var(--color-main-cta-donation);
+    text-decoration: none;
+    color: var(--color-cta-text);
+
+    &--about {
+      background-color: var(--color-main-cta-about-donation);
+    }
+  }
+
+  &__site {
+    position: relative;
+    width: 100%;
+    aspect-ratio: var(--number-site-ratio-large);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: var(--number-subcontainer-radius);
+
+    &__img {
+      transition: width .5s ease-out;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    &__title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      padding: var(--number-padding-simple) 0;
+      width: 100%;
+      text-align: center;
+      background-color: var(--color-site-title-bg);
+
+      font-family: var(--font-fam-cta);
+      font-size: var(--number-fsize-cta);
+    }
+
+    &__link {
+      color: inherit;
+      text-decoration: none;
+      display: flex;
+
+      &:hover, &:focus {
+        .content__site__img {
+          width: 120%;
+        }
+      }
+    }
+  }
+
+
+}
