@@ -29,8 +29,14 @@
                             <?= $navLink->label ?></a></li>
                 <?php endforeach; ?>
 
+                <li class="navbar__li navbar__li--checkbox">
+                    <input type="checkbox" class="navbar__checkbox" id="burger-menu"></input>
+                </li>
             </ul>
-        <?php else: echo var_dump($navLinks); endif; ?>
+
+            <label for="burger-menu" class="navbar__menu">Ouverture du burger menu mobile</label>
+
+        <?php endif; ?>
     </div>
 </nav>
 

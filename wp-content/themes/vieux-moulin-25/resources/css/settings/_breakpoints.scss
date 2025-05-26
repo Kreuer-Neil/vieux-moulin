@@ -7,6 +7,7 @@ $screen-md-min: 48rem; // 768px
 $screen-lg-min: 64rem; // 1024px
 $screen-xl-min: 90rem; // 1440px
 
+$screen-nav-max: 48rem; // 768px
 
 @mixin sm {
   @media (min-width: #{$screen-sm-min}) {
@@ -28,6 +29,12 @@ $screen-xl-min: 90rem; // 1440px
 
 @mixin xl {
   @media (min-width: #{$screen-xl-min}) {
+    @content;
+  }
+}
+
+@mixin nav {
+  @media (max-width: #{$screen-nav-max}) {
     @content;
   }
 }

@@ -9,8 +9,8 @@ header {
   flex-direction: column-reverse;
   gap: var(--number-padding-medium);
 }
+
 h1 {
-  font-family: var(--font-fam-titles);
   font-size: var(--number-fsize-title);
   text-align: center;
 }
@@ -65,7 +65,7 @@ h1 {
   &__img {
     width: 100%;
     height: 100%;
-    max-height: calc((100vh - var(--number-main-navbar-height))/2);
+    max-height: calc((100vh - var(--number-main-navbar-height)) / 2);
     object-fit: cover;
     @include b.md {
       max-height: calc(100vh - var(--number-main-navbar-height));
@@ -73,8 +73,11 @@ h1 {
   }
 
   &__title {
-    font-family: var(--font-fam-titles);
     font-size: var(--number-fsize-section-title);
+    padding: 0 var(--number-padding-simple);
+    @include b.md {
+      padding: 0 var(--number-padding-medium);
+    }
   }
 }
 
@@ -84,18 +87,43 @@ h1 {
   position: sticky;
   top: 0;
   order: -1;
+  z-index: 5;
 
   width: 100vw;
   min-height: var(--number-main-navbar-height);
-  background-color: var(--color-vm-original-yellow);
 
   display: flex;
   justify-content: center;
+
+  &::before {
+    // Grey site
+    content: '';
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-modal-bg);
+
+    display: none;
+    opacity: 0;
+    transition: opacity .4s linear;
+    z-index: -1;
+  }
+
+  &:has(.navbar__checkbox:checked):before {
+    @include b.nav {
+    display: block;
+    opacity: 1;
+    }
+  }
 
   &__container {
     display: flex;
     width: 100%;
     max-width: var(--number-max-container-width);
+    position: relative;
+    background-color: var(--color-vm-original-yellow);
 
     > * {
       height: 100%;
@@ -115,16 +143,45 @@ h1 {
   &__subcontainer {
     display: flex;
     flex-grow: 1;
+    transition: right .3s ease-in-out;
+
+    @include b.nav {
+      position: absolute;
+      padding-top: var(--number-padding-medium);
+      top: var(--number-main-navbar-height);
+      right: calc(-1 * (var(--number-max-burger-menu-width)));
+
+      flex-direction: column;
+      //justify-items: stretch;
+      gap: var(--number-padding-small);
+
+      background-color: var(--color-vm-original-yellow);
+      height: calc(100vh - (var(--number-main-navbar-height)));
+      width: 100%;
+      max-width: min(80vw, var(--number-max-burger-menu-width));
+
+
+      &:has(.navbar__checkbox:checked) {
+        right: 0;
+      }
+    }
   }
 
   &__li {
     display: flex;
     flex-grow: 1;
+    @include b.nav {
+      flex-grow: 0;
+    }
+
+    &--checkbox {
+      display: none;
+    }
   }
 
   &__link {
     color: var(--color-main-text);
-    padding: var(--number-padding-double);
+    padding: var(--number-padding-small) var(--number-padding-double);
     font-family: var(--font-fam-titles);
     display: flex;
     align-items: center;
@@ -134,9 +191,33 @@ h1 {
     &:focus, &:hover, &--active {
       background-color: var(--color-vm-dimmed-yellow);
     }
+
+    @include b.nav {
+      padding: var(--number-padding-medium) var(--number-padding-double);
+      border-bottom: var(--number-padding-little) linear var(--color-untrue-black);
+    }
+  }
+
+  &__menu {
+    display: none;
+    font-size: 0;
+    cursor: pointer;
+    margin-left: auto;
+
+    aspect-ratio: 1;
+    background: 100% 100% no-repeat url('../svg/burger-menu.svg');
+
+    @include b.nav {
+      display: flex;
+    }
   }
 }
 
-footer {
+
+//* Footer
+
+.custom-theme footer {
   background-color: var(--color-main-subframe-alt);
+  display: flex;
+  padding: var(--number-padding-simple) var(--number-padding-medium);
 }

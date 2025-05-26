@@ -1,3 +1,5 @@
+@use "../settings/breakpoints" as b;
+
 .content {
   &__container {
     max-width: var(--number-max-container-width);
@@ -10,8 +12,11 @@
   }
 
   &__title {
-    font-family: var(--font-fam-titles);
     font-size: var(--number-fsize-section-title);
+    padding: 0 var(--number-padding-simple);
+    @include b.md {
+      padding: 0 var(--number-padding-medium);
+    }
   }
 
   &__text {
@@ -58,12 +63,12 @@
   }
 
   &__site {
-    position: relative;
+    //position: relative;
     width: 100%;
     aspect-ratio: var(--number-site-ratio-large);
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
 
     border-radius: var(--number-subcontainer-radius);
@@ -76,9 +81,11 @@
     }
 
     &__title {
-      position: absolute;
-      bottom: 0;
-      left: 0;
+      //position: absolute;
+      //bottom: 0;
+      //left: 0;
+      margin-top: calc(-1 * var(--number-site-title-height));
+      z-index: 1;
 
       padding: var(--number-padding-simple) 0;
       width: 100%;
@@ -101,6 +108,4 @@
       }
     }
   }
-
-
 }
