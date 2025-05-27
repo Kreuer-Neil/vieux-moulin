@@ -5,6 +5,7 @@
 
   --color-untrue-black: #1E1B16;
   --color-untrue-white: #F2F2F2;
+  --color-grey-white: #d3d3d3;
   --color-modal-bg: #41434480;
 
   // Logo colors
@@ -28,6 +29,7 @@
   //* Theme specific colors
   --color-main-text: var(--color-untrue-black);
   --color-main-bg: #fff;
+  --color-main-inputs-bg: var(--color-untrue-white);
 
   --color-main-subframe: var(--color-vm-original-yellow);
   --color-main-subframe-alt: var(--color-vm-original-water-light);

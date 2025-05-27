@@ -1,5 +1,5 @@
 <?
-phpadd_action('acf/include_fields', function () {
+add_action('acf/include_fields', function () {
     if (!function_exists('acf_add_local_field_group')) {
         return;
     }
@@ -409,6 +409,71 @@ phpadd_action('acf/include_fields', function () {
         ),
         'menu_order' => 0,
         'position' => 'acf_after_title',
+        'style' => 'default',
+        'label_placement' => 'top',
+        'instruction_placement' => 'label',
+        'hide_on_screen' => '',
+        'active' => true,
+        'description' => '',
+        'show_in_rest' => 0,
+    ));
+
+    acf_add_local_field_group(array(
+        'key' => 'group_6835850b15bf2',
+        'title' => 'Texte du formulaire de dons',
+        'fields' => array(
+            array(
+                'key' => 'field_6835850b9862d',
+                'label' => 'Titre',
+                'name' => 'donation_title',
+                'aria-label' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 1,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => 'Faire un don',
+                'maxlength' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+            ),
+            array(
+                'key' => 'field_6835853d9862e',
+                'label' => 'Texte',
+                'name' => 'donation_text',
+                'aria-label' => '',
+                'type' => 'textarea',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'maxlength' => '',
+                'rows' => '',
+                'placeholder' => '',
+                'new_lines' => '',
+            ),
+        ),
+        'location' => array(
+            array(
+                array(
+                    'param' => 'page_template',
+                    'operator' => '==',
+                    'value' => 'template-donation.php',
+                ),
+            ),
+        ),
+        'menu_order' => 0,
+        'position' => 'normal',
         'style' => 'default',
         'label_placement' => 'top',
         'instruction_placement' => 'label',

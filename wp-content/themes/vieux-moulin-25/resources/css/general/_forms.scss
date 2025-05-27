@@ -1,0 +1,29 @@
+
+.form {
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--number-padding-small);
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: var(--number-padding-mini);
+  }
+  &__input {
+    border: solid 0 var(--color-main-text);
+    border-radius: 0;
+    background-color: var(--color-main-inputs-bg);
+    padding: var(--number-padding-small) var(--number-padding-simple);
+
+    &--money {
+      text-align: right;
+      max-width: var(--number-padding-heavy);
+      &::after {
+        content: '€';
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@ if (have_rows('main-content')): while (have_rows('main-content')):
     the_row();
     $rowType = get_sub_field('content_type'); ?>
 
-    <?= '<' . ($sectionType = (($rowType === 'news' || $rowType === 'site') ? 'article' : 'section')) . ' class="content__container">' ?>
+    <?= '<' . ($sectionType = (($rowType === 'news' || $rowType === 'site') ? 'section' : 'article')) . ' ' . (get_sub_field('section_id') ?? '') . ' class="content__container">' ?>
 
     <h2 class="content__title"><?= get_sub_field('title') ?></h2>
     <p class="content__text"><?= get_sub_field('text_content') ?></p>
@@ -29,9 +29,9 @@ if (have_rows('main-content')): while (have_rows('main-content')):
 
 <?php elseif ($rowType === 'cta_donation'): ?>
     <div class="content__subcontainer content__subcontainer--cta">
-        <a title="À propos des dons" href="<?= '' // donations .'#about' ?>"
+        <a title="À propos des dons" href="<?= '' // donations .'#about'  ?>"
            class="cta cta--about">En savoir plus sur les dons</a>
-        <a title="Aller vers la page de dons" href="<?= '' // donations .'#donate' ?>" class="cta">Donner</a>
+        <a title="Aller vers la page de dons" href="<?= '' // donations .'#donate'  ?>" class="cta">Donner</a>
     </div>
 <?php endif; ?>
 

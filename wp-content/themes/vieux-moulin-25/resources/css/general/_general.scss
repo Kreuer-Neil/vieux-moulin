@@ -25,6 +25,7 @@
     padding: var(--number-padding-double) 0;
 
     display: flex;
+    gap: var(--number-gap-sections);
     flex-direction: column;
     align-items: center;
   }
