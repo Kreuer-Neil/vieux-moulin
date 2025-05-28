@@ -25,6 +25,8 @@ h1 {
     height: calc(100vh - var(--number-main-navbar-height));
     max-width: var(--number-max-container-width-extended);
     max-height: var(--number-max-container-height);
+
+    border-bottom: var(--number-padding-little) solid var(--color-main-alt-bg);
   }
 
   &__item {
@@ -39,6 +41,7 @@ h1 {
 
     &--single {
       min-height: calc(100vh - var(--number-main-navbar-height));
+      border-bottom: var(--number-padding-little) solid var(--color-main-alt-bg);
     }
 
     @include b.md {

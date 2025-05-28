@@ -29,7 +29,7 @@
   //* Theme specific colors
   --color-main-text: var(--color-untrue-black);
   --color-main-bg: #fff;
-  --color-main-inputs-bg: var(--color-untrue-white);
+  --color-main-alt-bg: var(--color-untrue-white);
 
   --color-main-subframe: var(--color-vm-original-yellow);
   --color-main-subframe-alt: var(--color-vm-original-water-light);
@@ -44,6 +44,7 @@
   --number-max-container-height: 67.5rem; //1080px
   --number-max-container-width-extended: 120rem; // 1920px
   --number-max-text-width: 45rem; //720px
+  --number-max-article-width: 30rem; //720px
   --number-max-burger-menu-width: 24rem; //384px
 
   // Paddings
@@ -60,6 +61,7 @@
   --number-fsize-title: 2.5rem;
   --number-fsize-section-title: 2rem;
   --number-fsize-navbar: 1.25rem;
+  --number-fsize-subtitle: 1.5rem;
   --number-fsize-cta: 1.25rem;
 
   // Auto gaps
@@ -75,9 +77,13 @@
 
   // Site card values
   --color-site-title-bg: #F2F2F2B3;
-  --number-site-ratio-large: .9;
+  --number-site-ratio-large: .9 / 1;
   --number-site-max-width: 28.125rem;
   --number-site-title-height: 2.75rem;
+
+  // Article card values
+  --number-article-thingy: 2.75rem;
+
 
 
   //* URLs

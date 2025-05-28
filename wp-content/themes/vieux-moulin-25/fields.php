@@ -1,73 +1,8 @@
-<?
+<?php
 add_action('acf/include_fields', function () {
     if (!function_exists('acf_add_local_field_group')) {
         return;
     }
-
-    acf_add_local_field_group(array(
-        'key' => 'group_68318dd718ea8',
-        'title' => 'Contenu Articles',
-        'fields' => array(
-            array(
-                'key' => 'field_68318dd766cff',
-                'label' => 'Titre',
-                'name' => 'title',
-                'aria-label' => '',
-                'type' => 'text',
-                'instructions' => '',
-                'required' => 1,
-                'conditional_logic' => 0,
-                'wrapper' => array(
-                    'width' => '',
-                    'class' => '',
-                    'id' => '',
-                ),
-                'default_value' => '',
-                'maxlength' => '',
-                'placeholder' => '',
-                'prepend' => '',
-                'append' => '',
-            ),
-            array(
-                'key' => 'field_68318dfa66d00',
-                'label' => 'Texte',
-                'name' => 'text_content',
-                'aria-label' => '',
-                'type' => 'textarea',
-                'instructions' => '',
-                'required' => 1,
-                'conditional_logic' => 0,
-                'wrapper' => array(
-                    'width' => '',
-                    'class' => '',
-                    'id' => '',
-                ),
-                'default_value' => '',
-                'maxlength' => '',
-                'rows' => '',
-                'placeholder' => '',
-                'new_lines' => '',
-            ),
-        ),
-        'location' => array(
-            array(
-                array(
-                    'param' => 'post_type',
-                    'operator' => '==',
-                    'value' => 'post',
-                ),
-            ),
-        ),
-        'menu_order' => 0,
-        'position' => 'normal',
-        'style' => 'default',
-        'label_placement' => 'top',
-        'instruction_placement' => 'label',
-        'hide_on_screen' => '',
-        'active' => true,
-        'description' => '',
-        'show_in_rest' => 0,
-    ));
 
     acf_add_local_field_group(array(
         'key' => 'group_682b32b938501',
@@ -189,7 +124,7 @@ add_action('acf/include_fields', function () {
                             'id' => '',
                         ),
                         'choices' => array(
-                            'holyday' => 'Vacances',
+                            'holiday' => 'Vacances',
                             'funding' => 'Financements',
                         ),
                         'default_value' => false,
@@ -237,7 +172,7 @@ add_action('acf/include_fields', function () {
                 array(
                     'param' => 'post_type',
                     'operator' => '==',
-                    'value' => 'site',
+                    'value' => 'post',
                 ),
             ),
         ),
@@ -291,7 +226,7 @@ add_action('acf/include_fields', function () {
                     'id' => '',
                 ),
                 'default_value' => 'Le vieux moulin est une SRG s’occupant d’enfants retirés à leur famille pour des raisons juridiques. Elle accueille actuellement 34 jeunes.
-	Notre travail est de permettre à ces jeunes de grandir dans un environnement le plus sain possible, vivre la ville que tout enfant mérite. Nous faisons de notre mieux pour donner aux jeunes un nouveau cadre dans lequel s’épanouir et grandir en bonne santé. Aidez-nous. Faites un don. Pour les enfants.',
+Notre travail est de permettre à ces jeunes de grandir dans un environnement le plus sain possible, vivre la ville que tout enfant mérite. Nous faisons de notre mieux pour donner aux jeunes un nouveau cadre dans lequel s’épanouir et grandir en bonne santé. Aidez-nous. Faites un don. Pour les enfants.',
                 'maxlength' => '',
                 'rows' => '',
                 'placeholder' => '',
@@ -355,7 +290,7 @@ add_action('acf/include_fields', function () {
                             'id' => '',
                         ),
                         'default_value' => 'Le vieux moulin est une SRG s’occupant d’enfants retirés à leur famille pour des raisons juridiques. Elle accueille actuellement 34 jeunes.
-	Notre travail est de permettre à ces jeunes de grandir dans un environnement le plus sain possible, vivre la ville que tout enfant mérite. Nous faisons de notre mieux pour donner aux jeunes un nouveau cadre dans lequel s’épanouir et grandir en bonne santé. Aidez-nous. Faites un don. Pour les enfants.',
+Notre travail est de permettre à ces jeunes de grandir dans un environnement le plus sain possible, vivre la ville que tout enfant mérite. Nous faisons de notre mieux pour donner aux jeunes un nouveau cadre dans lequel s’épanouir et grandir en bonne santé. Aidez-nous. Faites un don. Pour les enfants.',
                         'maxlength' => '',
                         'rows' => '',
                         'placeholder' => '',
@@ -409,6 +344,51 @@ add_action('acf/include_fields', function () {
         ),
         'menu_order' => 0,
         'position' => 'acf_after_title',
+        'style' => 'default',
+        'label_placement' => 'top',
+        'instruction_placement' => 'label',
+        'hide_on_screen' => '',
+        'active' => true,
+        'description' => '',
+        'show_in_rest' => 0,
+    ));
+
+    acf_add_local_field_group(array(
+        'key' => 'group_683614237bec6',
+        'title' => 'Texte de vignette',
+        'fields' => array(
+            array(
+                'key' => 'field_683614232e949',
+                'label' => 'Texte de vignette',
+                'name' => 'article_thumbnail_text',
+                'aria-label' => '',
+                'type' => 'text',
+                'instructions' => 'max. 2 lignes',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'maxlength' => 300,
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+            ),
+        ),
+        'location' => array(
+            array(
+                array(
+                    'param' => 'post_type',
+                    'operator' => '==',
+                    'value' => 'post',
+                ),
+            ),
+        ),
+        'menu_order' => 0,
+        'position' => 'normal',
         'style' => 'default',
         'label_placement' => 'top',
         'instruction_placement' => 'label',
