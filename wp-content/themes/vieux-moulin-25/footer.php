@@ -26,11 +26,12 @@
                     <li class="navbar__li"><a tabindex="1"
                                               class="navbar__link <?= str_contains($url = $navLink->url, get_page_link()) ? ' navbar__link--active' : '' ?>"
                                               href="<?= $url ?>" title="Vers la page <?= $navLink->label ?>">
-                            <?= $navLink->label ?></a></li>
+                            <?= $navLink->label ?></a>
+                    </li>
                 <?php endforeach; ?>
 
                 <li class="navbar__li navbar__li--checkbox">
-                    <input type="checkbox" class="navbar__checkbox" id="burger-menu"></input>
+                    <input type="checkbox" class="navbar__checkbox" id="burger-menu">
                 </li>
             </ul>
 

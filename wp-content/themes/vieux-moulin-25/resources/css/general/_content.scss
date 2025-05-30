@@ -126,6 +126,11 @@
     padding: var(--number-padding-small);
     border-radius: var(--number-container-radius);
     background-color: var(--color-main-subframe);
+    transition: transform .2s ease-out;
+
+    &:hover, &:focus {
+      transform: scale(105%);
+    }
 
     &__subcontainer {
       display: flex;

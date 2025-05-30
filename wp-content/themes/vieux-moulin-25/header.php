@@ -17,7 +17,7 @@
         <section class="slider__container">
             <h2 class="sro"><?= 'Slider de la page ' . get_the_title() ?></h2>
             <article class="slider__item slider__item--mutiple">
-                <?= get_the_post_thumbnail(size: 'medium', attr: ['width' => '960px', 'height' => '1008px', 'class' => 'slider__img']); ?>
+                <?= get_the_post_thumbnail(size: 'medium', attr: ['width' => '960', 'height' => '1008', 'class' => 'slider__img']); ?>
                 <div class="slider__subcontainer">
                     <h3 class="slider__title"><?= get_field('thumbnail_title') ?></h3>
                     <p class="slider__text"><?= get_field('thumbnail_text_content') ?></p>
@@ -27,8 +27,8 @@
             <?php while (have_rows('slider')): the_row();
                 $image = get_sub_field('image') ?>
                 <article class="slider__item slider__item--mutiple">
-                    <img src="<?= $image['url'] ?>" alt="<?= $image['alt'] //TODO add SRCset  ?>" width="960px"
-                         height="1008px" class="slider__img">
+                    <img src="<?= $image['url'] ?>" alt="<?= $image['alt'] //TODO add SRCset  ?>" width="960"
+                         height="1008" class="slider__img">
                     <div class="slider__subcontainer">
                         <h3 class="slider__title"><?= get_sub_field('title') ?></h3>
                         <p class="slider__text"><?= get_sub_field('text_content') ?></p>
@@ -40,7 +40,7 @@
     <?php elseif(get_field('thumbnail_title')): ?>
 
         <article class="slider__item slider__item--single">
-            <?= get_the_post_thumbnail(size: 'medium', attr: ['width' => '960px', 'height' => '1008px', 'class' => 'slider__img']); ?>
+            <?= get_the_post_thumbnail(size: 'medium', attr: ['width' => '960', 'height' => '1008', 'class' => 'slider__img']); ?>
             <div class="slider__subcontainer">
                 <h2 class="slider__title"><?= get_field('thumbnail_title') ?></h2>
                 <p class="slider__text"><?= get_field('thumbnail_text_content') ?></p>

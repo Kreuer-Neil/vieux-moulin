@@ -7,6 +7,8 @@ if (have_rows('main-content')): while (have_rows('main-content')):
 
     <h2 class="content__title"><?= get_sub_field('title') ?></h2>
     <p class="content__text"><?= get_sub_field('text_content') ?></p>
+
+
     <?php if ($rowType === 'site'): ?>
     <div class="content__subcontainer content__subcontainer--site">
 
@@ -21,12 +23,15 @@ if (have_rows('main-content')): while (have_rows('main-content')):
             <a href="<?= get_page_link() ?>" class="content__site__link">
                 <article class="content__site">
                     <h3 class="content__site__title"><?= get_the_title() ?></h3>
-                    <?= get_the_post_thumbnail(size: 'medium', attr: ['width' => '450px', 'height' => '500px', 'class' => 'content__site__img']) ?>
+                    <?= get_the_post_thumbnail(size: 'medium', attr: ['width' => '450', 'height' => '500', 'class' => 'content__site__img']) ?>
                 </article>
             </a>
         <?php endwhile; endif; ?>
     </div>
+
+
 <?php elseif ($rowType === 'article'):
+
     if ($article_type = get_sub_field('article_type')) {
 //            $articleTypes = get_the_terms(get_the_ID(), 'news_type');
         $articles = new WP_Query([
@@ -35,7 +40,6 @@ if (have_rows('main-content')): while (have_rows('main-content')):
             'posts_per_page' => '3',
             'orderby' => 'date',
             'order' => 'DESC',
-            // TODO récupérer celui de WP-201fonctionnel
             'tax_query' => [
                 'relation' => 'AND',
                 [
@@ -58,34 +62,37 @@ if (have_rows('main-content')): while (have_rows('main-content')):
             'order' => 'DESC',
 
         ]);
-    } ?>
-    <?php if ($articles->have_posts()):
-    ?>
-    <div class="content__subcontainer content__subcontainer--article">
+    }
 
-        <?php while ($articles->have_posts()): $articles->the_post(); ?>
-            <a href="<?= get_page_link() ?>" class="content__article__link">
-                <article class="content__article">
-                    <div class="content__article__subcontainer">
-                        <h3 class="content__article__title"><?= get_the_title() ?></h3>
-                        <p class="content__article__text"><?= get_field('article_thumbnail_text') ?></p>
-                    </div>
-                    <?= get_the_post_thumbnail(size: 'medium', attr: ['width' => '450px', 'height' => '300px', 'class' => 'content__article__img']) ?>
-                </article>
-            </a>
-        <?php endwhile; ?>
+    if ($articles->have_posts()): ?>
+        <div class="content__subcontainer content__subcontainer--article">
 
-    </div>
-<?php else: ?>
-    <p>Pas d’articles associés.</p>
-<?php endif; ?>
+            <?php while ($articles->have_posts()): $articles->the_post(); ?>
+                <a href="<?= get_page_link() ?>" class="content__article__link">
+                    <article class="content__article">
+                        <div class="content__article__subcontainer">
+                            <h3 class="content__article__title"><?= get_the_title() ?></h3>
+                            <p class="content__article__text"><?= get_field('article_thumbnail_text') ?></p>
+                        </div>
+                        <?= get_the_post_thumbnail(size: 'medium', attr: ['width' => '450', 'height' => '300', 'class' => 'content__article__img']) ?>
+                    </article>
+                </a>
+            <?php endwhile; ?>
+
+        </div>
+    <?php else: ?>
+        <p>Pas d’articles associés.</p>
+    <?php endif; ?>
+
+
 <?php elseif ($rowType === 'cta_donation'): ?>
     <div class="content__subcontainer content__subcontainer--cta">
-        <a title="À propos des dons" href="<?= '' // donations . '#about'   ?>"
+        <a title="À propos des dons" href="<?= get_permalink(68) . '#about' ?>"
            class="cta cta--about">En savoir plus sur les dons</a>
-        <a title="Aller vers la page de dons" href="<?= '' // donations . '#donate'   ?>" class="cta">Donner</a>
+        <a title="Aller vers la page de dons" href="<?= get_permalink('donate') . '#donate' ?>" class="cta">Donner</a>
     </div>
 <?php endif; ?>
 
     <?= '</' . $sectionType . '>' ?>
-<?php endwhile; endif; ?>
+<?php endwhile; endif;
+// TODO add img component type & support ?>
