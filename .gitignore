@@ -22,3 +22,5 @@ wp-content/themes/vieux-moulin-25/public/*
 
 !db-backups
 !db-backups/*
+!1-media-backup
+!1-media-backup/*
