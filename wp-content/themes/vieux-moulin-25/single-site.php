@@ -1,10 +1,13 @@
 <?php get_header();
 
-if (have_posts()): while (have_posts()): the_post();
+if (have_posts()): while (have_posts()): the_post(); ?>
 
-get_template_part('components/content');
+<article class="content__container">
+    <h2 class="content__title"><?= get_field('single_site_title') ?></h2>
+    <p class="content__text"><?= get_field('single_site_text_content') ?></p>
+</article>
 
-if (have_rows('site_images')): ?>
+<?php if (have_rows('site_images')): ?>
         <div class="siteimg">
             <?php while (have_rows('site_images')): the_row();
                 $img = get_sub_field('img'); ?>
