@@ -1,5 +1,22 @@
 @use "../settings/breakpoints" as b;
 
+#main:has(.siteimg) {
+  position: relative;
+  overflow-y: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 999rem;
+    z-index: -3;
+
+    background: url("../svg/bg-site.svg") repeat-y center top;
+  }
+}
+
 .siteimg {
   margin: var(--number-padding-small);
   display: grid;

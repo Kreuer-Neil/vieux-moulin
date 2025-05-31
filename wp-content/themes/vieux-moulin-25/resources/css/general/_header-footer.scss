@@ -6,6 +6,7 @@
 header {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column-reverse;
   gap: var(--number-padding-medium);
 }

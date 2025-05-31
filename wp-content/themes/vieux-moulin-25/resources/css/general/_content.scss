@@ -21,6 +21,9 @@
 
   &__text {
     max-width: var(--number-max-text-width);
+    &--center {
+      text-align: center;
+    }
   }
 
   &__subcontainer {

@@ -4,7 +4,7 @@ if (have_posts()): while (have_posts()): the_post(); ?>
 
 <article class="content__container">
     <h2 class="content__title"><?= get_field('single_site_title') ?></h2>
-    <p class="content__text"><?= get_field('single_site_text_content') ?></p>
+    <p class="content__text content__text--center"><?= get_field('single_site_text_content') ?></p>
 </article>
 
 <?php if (have_rows('site_images')): ?>
