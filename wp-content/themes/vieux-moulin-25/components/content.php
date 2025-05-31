@@ -26,7 +26,7 @@ if (have_rows('main-content')): while (have_rows('main-content')):
                     <?= get_the_post_thumbnail(size: 'medium', attr: ['width' => '450', 'height' => '500', 'class' => 'content__site__img']) ?>
                 </article>
             </a>
-        <?php endwhile; endif; ?>
+        <?php endwhile; endif; wp_reset_postdata(); ?>
     </div>
 
 
@@ -82,7 +82,7 @@ if (have_rows('main-content')): while (have_rows('main-content')):
         </div>
     <?php else: ?>
         <p>Pas d’articles associés.</p>
-    <?php endif; ?>
+    <?php endif; wp_reset_postdata(); ?>
 
 
 <?php elseif ($rowType === 'cta_donation'): ?>
