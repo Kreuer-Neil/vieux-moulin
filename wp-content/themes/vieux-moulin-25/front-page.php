@@ -5,7 +5,7 @@ if (have_posts()): while (have_posts()): the_post();
     ?>
 
 
-    <aside class="partnership">
+    <aside class="partnership content__container">
         <h2 class="partnership__title content__title"><?= get_field('partnerships_title') ?></h2>
 
         <?php if (have_rows('partnership_rows')) : ?>

@@ -58,18 +58,12 @@
         grid-template-columns: 1fr 1fr 1fr;
       }
     }
-  }
 
-  &__cta {
-    padding: var(--number-padding-small) var(--number-padding-medium);
-    background-color: var(--color-main-cta-donation);
-    text-decoration: none;
-    color: var(--color-cta-text);
-
-    &--about {
-      background-color: var(--color-main-cta-about-donation);
+    &--cta {
+      gap: var(--number-padding-medium);
     }
   }
+
 
   &__site {
     //position: relative;

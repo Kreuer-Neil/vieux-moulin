@@ -46,4 +46,16 @@
   }
 }
 
+// CTA button
 
+.cta {
+  padding: var(--number-padding-small) var(--number-padding-medium);
+  background-color: var(--color-main-cta-donation);
+  text-decoration: none;
+  color: var(--color-cta-text);
+  border-radius: var(--number-cta-radius);
+
+  &--about {
+    background-color: var(--color-main-cta-about-donation);
+  }
+}

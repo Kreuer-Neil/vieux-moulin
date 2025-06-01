@@ -24,7 +24,7 @@
             <ul class="navbar__subcontainer">
                 <?php foreach ($navLinks as $navLink): ?>
                     <li class="navbar__li"><a tabindex="1"
-                                              class="navbar__link <?= str_contains($url = $navLink->url, get_page_link()) ? ' navbar__link--active' : '' ?>"
+                                              class="navbar__link <?= (($url = $navLink->url) === get_page_link()) ? ' navbar__link--active' : '' ?>"
                                               href="<?= $url ?>" title="Vers la page <?= $navLink->label ?>">
                             <?= $navLink->label ?></a>
                     </li>
@@ -41,8 +41,22 @@
     </div>
 </nav>
 
-<footer>
-    <p>© <?= get_bloginfo('name'); ?></p>
+<footer class="footer">
+    <div class="footer__container">
+
+        <nav class="footer__nav">
+            <h2 class="footer__nav__title sro">Navigation de pied de page</h2>
+            <?php if ($footNavLinks = dw_get_navigation_links('footer')) ?>
+            <ul class="footer__nav__container">
+                <?php foreach ($footNavLinks as $footNavLink): ?>
+                    <li class="footer__nav__li">
+                        <a href="<?= $footNavLink->url ?>" class="footer__nav__link"><?= $footNavLink->label ?></a>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        </nav>
+        <p class="footer__copyright">© <?= get_bloginfo('name'); ?></p>
+    </div>
     <?php wp_footer() ?>
 </footer>
 </body>

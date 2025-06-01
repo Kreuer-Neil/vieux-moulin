@@ -88,7 +88,7 @@ if (have_rows('main-content')): while (have_rows('main-content')):
 <?php elseif ($rowType === 'cta_donation'): ?>
     <div class="content__subcontainer content__subcontainer--cta">
         <a title="À propos des dons" href="<?= get_permalink(68) . '#about' ?>"
-           class="cta cta--about">En savoir plus sur les dons</a>
+           class="cta cta--about">En savoir plus</a>
         <a title="Aller vers la page de dons" href="<?= get_permalink('donate') . '#donate' ?>" class="cta">Donner</a>
     </div>
 <?php endif; ?>
