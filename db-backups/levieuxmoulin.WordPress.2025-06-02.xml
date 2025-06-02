@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.8.1" created="2025-05-28 08:10" -->
+	<!-- generator="WordPress/6.8.1" created="2025-06-02 11:18" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Le Vieux Moulin</title>
 	<link>http://vieux-moulin.test</link>
 	<description></description>
-	<pubDate>Wed, 28 May 2025 08:10:53 +0000</pubDate>
+	<pubDate>Mon, 02 Jun 2025 11:18:01 +0000</pubDate>
 	<language>fr-BE</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://vieux-moulin.test</wp:base_site_url>
@@ -73,150 +73,6 @@
 	<generator>https://wordpress.org/?v=6.8.1</generator>
 
 		<item>
-		<title><![CDATA[Supline]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=8</link>
-		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=8</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:12:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:17:"allow_in_bindings";i:0;s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
-		<excerpt:encoded><![CDATA[supline]]></excerpt:encoded>
-		<wp:post_id>8</wp:post_id>
-		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 06:48:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_67ef7ff994823]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>7</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Headline]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=9</link>
-		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=9</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:12:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:17:"allow_in_bindings";i:0;s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
-		<excerpt:encoded><![CDATA[headline]]></excerpt:encoded>
-		<wp:post_id>9</wp:post_id>
-		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 06:48:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_67ef802d94824]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>7</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Subline]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=10</link>
-		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=10</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:12:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:17:"allow_in_bindings";i:0;s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
-		<excerpt:encoded><![CDATA[subline]]></excerpt:encoded>
-		<wp:post_id>10</wp:post_id>
-		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 06:48:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_67ef805d94826]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>7</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Text]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=11</link>
-		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=11</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:12:{s:10:"aria-label";s:0:"";s:4:"type";s:7:"wysiwyg";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:17:"allow_in_bindings";i:0;s:4:"tabs";s:3:"all";s:7:"toolbar";s:4:"full";s:12:"media_upload";i:1;s:5:"delay";i:0;}]]></content:encoded>
-		<excerpt:encoded><![CDATA[text]]></excerpt:encoded>
-		<wp:post_id>11</wp:post_id>
-		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 06:48:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_67ef804494825]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>7</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Background image]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=12</link>
-		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=12</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:17:{s:10:"aria-label";s:0:"";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:7:"library";s:3:"all";s:9:"min_width";s:0:"";s:10:"min_height";s:0:"";s:8:"min_size";s:0:"";s:9:"max_width";s:0:"";s:10:"max_height";s:0:"";s:8:"max_size";s:0:"";s:10:"mime_types";s:0:"";s:17:"allow_in_bindings";i:0;s:12:"preview_size";s:6:"medium";}]]></content:encoded>
-		<excerpt:encoded><![CDATA[background_image]]></excerpt:encoded>
-		<wp:post_id>12</wp:post_id>
-		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 06:48:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_67ef806594827]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>7</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Link]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=13</link>
-		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=13</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:8:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"link";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:17:"allow_in_bindings";i:0;}]]></content:encoded>
-		<excerpt:encoded><![CDATA[links]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
-		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 06:48:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_67ef807f94828]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>7</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
 		<title><![CDATA[Slider]]></title>
 		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=24</link>
 		<pubDate>Mon, 19 May 2025 12:51:45 +0000</pubDate>
@@ -555,6 +411,150 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
 					<item>
+		<title><![CDATA[Texte de vignette]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=87</link>
+		<pubDate>Tue, 27 May 2025 19:37:37 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=87</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:13:"max. 2 lignes";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";i:300;s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[article_thumbnail_text]]></excerpt:encoded>
+		<wp:post_id>87</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-27 19:37:37]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-27 19:37:37]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-27 19:37:37]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-27 19:37:37]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_683614232e949]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>86</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Partenariats]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=101</link>
+		<pubDate>Wed, 28 May 2025 10:15:43 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=101</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:10:"aria-label";s:0:"";s:4:"type";s:8:"repeater";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:6:"layout";s:5:"table";s:10:"pagination";i:0;s:3:"min";s:0:"";s:3:"max";s:0:"";s:9:"collapsed";s:0:"";s:12:"button_label";s:20:"Ajouter un élément";s:13:"rows_per_page";i:20;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[partnership_rows]]></excerpt:encoded>
+		<wp:post_id>101</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 10:15:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 10:15:43]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 07:43:56]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 07:43:56]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6836e1e8bd521]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>100</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Nom du partenaire]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=102</link>
+		<pubDate>Wed, 28 May 2025 10:15:43 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=102</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:1;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[name]]></excerpt:encoded>
+		<wp:post_id>102</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 10:15:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 10:15:43]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:15:43]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:15:43]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6836e203bd522]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>101</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Logo du partenaire]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=103</link>
+		<pubDate>Wed, 28 May 2025 10:15:43 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=103</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:16:{s:10:"aria-label";s:0:"";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";i:1;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:7:"library";s:3:"all";s:9:"min_width";s:0:"";s:10:"min_height";s:0:"";s:8:"min_size";s:0:"";s:9:"max_width";s:0:"";s:10:"max_height";s:0:"";s:8:"max_size";s:0:"";s:10:"mime_types";s:10:".svg, .png";s:12:"preview_size";s:6:"medium";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[image]]></excerpt:encoded>
+		<wp:post_id>103</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 10:15:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 10:15:43]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:17:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:17:08]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6836e215bd523]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>101</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Titre partenariats]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=107</link>
+		<pubDate>Wed, 28 May 2025 10:41:14 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=107</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:1;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:16:"Nos partenariats";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[partnerships_title]]></excerpt:encoded>
+		<wp:post_id>107</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 10:41:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 10:41:14]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:41:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:41:32]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6836e82e57527]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>100</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Images du site]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=115</link>
+		<pubDate>Fri, 30 May 2025 10:09:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=115</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:13:{s:10:"aria-label";s:0:"";s:4:"type";s:8:"repeater";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:6:"layout";s:3:"row";s:10:"pagination";i:0;s:3:"min";s:0:"";s:3:"max";s:0:"";s:9:"collapsed";s:0:"";s:12:"button_label";s:0:"";s:13:"rows_per_page";i:20;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[site_images]]></excerpt:encoded>
+		<wp:post_id>115</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 10:09:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 10:09:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 14:21:37]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 14:21:37]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_68398329043f2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>114</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
 		<title><![CDATA[STAGES]]></title>
 		<link>http://vieux-moulin.test/?post_type=acf-field-group&#038;p=7</link>
 		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
@@ -566,12 +566,12 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 		<wp:post_id>7</wp:post_id>
 		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-04-04 06:48:47]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:13:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:13:55]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[group_67ef7ff92e0e0]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_name><![CDATA[group_67ef7ff92e0e0__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
@@ -580,6 +580,234 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 														<wp:postmeta>
 		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1748427235]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[group_67ef7ff92e0e0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Supline]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=8</link>
+		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=8</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:17:"allow_in_bindings";i:0;s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[supline]]></excerpt:encoded>
+		<wp:post_id>8</wp:post_id>
+		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:13:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:13:55]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_67ef7ff994823__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>7</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1748427235]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67ef7ff994823]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Headline]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=9</link>
+		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=9</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:17:"allow_in_bindings";i:0;s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[headline]]></excerpt:encoded>
+		<wp:post_id>9</wp:post_id>
+		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:13:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:13:55]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_67ef802d94824__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>7</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1748427235]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67ef802d94824]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Subline]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=10</link>
+		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=10</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:17:"allow_in_bindings";i:0;s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[subline]]></excerpt:encoded>
+		<wp:post_id>10</wp:post_id>
+		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:13:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:13:55]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_67ef805d94826__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>7</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1748427235]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67ef805d94826]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Text]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=11</link>
+		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=11</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:10:"aria-label";s:0:"";s:4:"type";s:7:"wysiwyg";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:17:"allow_in_bindings";i:0;s:4:"tabs";s:3:"all";s:7:"toolbar";s:4:"full";s:12:"media_upload";i:1;s:5:"delay";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[text]]></excerpt:encoded>
+		<wp:post_id>11</wp:post_id>
+		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:13:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:13:55]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_67ef804494825__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>7</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1748427235]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67ef804494825]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Background image]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=12</link>
+		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=12</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:17:{s:10:"aria-label";s:0:"";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:7:"library";s:3:"all";s:9:"min_width";s:0:"";s:10:"min_height";s:0:"";s:8:"min_size";s:0:"";s:9:"max_width";s:0:"";s:10:"max_height";s:0:"";s:8:"max_size";s:0:"";s:10:"mime_types";s:0:"";s:17:"allow_in_bindings";i:0;s:12:"preview_size";s:6:"medium";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[background_image]]></excerpt:encoded>
+		<wp:post_id>12</wp:post_id>
+		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:13:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:13:55]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_67ef806594827__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>7</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1748427235]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67ef806594827]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Link]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=13</link>
+		<pubDate>Fri, 04 Apr 2025 06:48:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=13</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:8:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"link";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:17:"allow_in_bindings";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[links]]></excerpt:encoded>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_date><![CDATA[2025-04-04 06:48:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-04-04 06:48:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:13:55]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:13:55]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_67ef807f94828__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>7</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1748427235]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67ef807f94828]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -610,6 +838,338 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
+					<item>
+		<title><![CDATA[Contenu des pages]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field-group&#038;p=33</link>
+		<pubDate>Mon, 19 May 2025 14:10:39 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field-group&#038;p=33</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:8:{s:8:"location";a:2:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";}}i:1;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[contenu-des-pages]]></excerpt:encoded>
+		<wp:post_id>33</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-19 14:10:39]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-19 14:10:39]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 14:21:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 14:21:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_682b32b938501]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Titre]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=77</link>
+		<pubDate>Sat, 24 May 2025 09:14:58 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=77</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:1;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[title]]></excerpt:encoded>
+		<wp:post_id>77</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-24 09:14:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-24 09:14:58]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-27 20:13:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-27 20:13:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_68318dd766cff__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>76</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1748376824]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_68318dd766cff]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Texte]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=78</link>
+		<pubDate>Sat, 24 May 2025 09:14:58 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=78</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";i:1;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:11:"placeholder";s:0:"";s:9:"new_lines";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[text_content]]></excerpt:encoded>
+		<wp:post_id>78</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-24 09:14:58]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-24 09:14:58]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-27 20:13:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-27 20:13:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_68318dfa66d00__trashed]]></wp:post_name>
+		<wp:status><![CDATA[trash]]></wp:status>
+		<wp:post_parent>76</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
+		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1748376824]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_68318dfa66d00]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Texte du formulaire de dons]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field-group&#038;p=82</link>
+		<pubDate>Tue, 27 May 2025 09:27:23 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field-group&#038;p=82</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:8:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:21:"template-donation.php";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[texte-du-formulaire-de-dons]]></excerpt:encoded>
+		<wp:post_id>82</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-27 09:27:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-27 09:27:23]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-27 09:27:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-27 09:27:23]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_6835850b15bf2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Texte de vignette]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field-group&#038;p=86</link>
+		<pubDate>Tue, 27 May 2025 19:37:37 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field-group&#038;p=86</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:8:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[texte-de-vignette]]></excerpt:encoded>
+		<wp:post_id>86</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-27 19:37:37]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-27 19:37:37]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-27 19:37:37]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-27 19:37:37]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_683614237bec6]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Partenariats]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field-group&#038;p=100</link>
+		<pubDate>Wed, 28 May 2025 10:15:43 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field-group&#038;p=100</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:8:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:4:"page";s:8:"operator";s:2:"==";s:5:"value";s:2:"28";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[partenariats]]></excerpt:encoded>
+		<wp:post_id>100</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 10:15:43]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 10:15:43]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 07:43:56]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 07:43:56]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_6836e1e7e196d]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Contenu des sites/maisons]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field-group&#038;p=114</link>
+		<pubDate>Fri, 30 May 2025 10:09:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field-group&#038;p=114</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:8:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"site";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[contenu-des-sites-maisons]]></excerpt:encoded>
+		<wp:post_id>114</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 10:09:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 10:09:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 14:21:37]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 14:21:37]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_683983290a489]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[TItre]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=116</link>
+		<pubDate>Fri, 30 May 2025 10:09:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=116</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:1;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[title]]></excerpt:encoded>
+		<wp:post_id>116</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 10:09:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 10:09:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 10:09:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 10:09:47]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6839836c043f3]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>115</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Image]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=117</link>
+		<pubDate>Fri, 30 May 2025 10:09:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=117</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:16:{s:10:"aria-label";s:0:"";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";i:1;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:7:"library";s:3:"all";s:9:"min_width";s:0:"";s:10:"min_height";s:0:"";s:8:"min_size";s:0:"";s:9:"max_width";s:0:"";s:10:"max_height";s:0:"";s:8:"max_size";s:0:"";s:10:"mime_types";s:0:"";s:12:"preview_size";s:6:"medium";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[img]]></excerpt:encoded>
+		<wp:post_id>117</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 10:09:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 10:09:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 10:09:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 10:09:47]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6839838f043f4]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>115</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Contenu de texte]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=118</link>
+		<pubDate>Fri, 30 May 2025 10:09:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=118</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";i:1;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:11:"placeholder";s:0:"";s:9:"new_lines";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[text_content]]></excerpt:encoded>
+		<wp:post_id>118</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 10:09:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 10:09:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 10:09:47]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 10:09:47]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_683983be043f5]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>115</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Sous-titre]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=123</link>
+		<pubDate>Fri, 30 May 2025 14:21:37 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=123</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:7:"%title%";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[single_site_title]]></excerpt:encoded>
+		<wp:post_id>123</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 14:21:37]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 14:21:37]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 14:21:37]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 14:21:37]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6839be4c172a5]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>114</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Texte d'en-tête]]></title>
+		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=124</link>
+		<pubDate>Fri, 30 May 2025 14:21:37 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=124</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:334:"Le Vieux Moulin est situé à Strainchamps, accueillant actuellement 18 jeunes, avec 24 personnes en effectif, comprenant les éducateurs et le personnel d’entretient. Malgré son apparence rustique, le bâtiment possède toutes les installations nécessaires au développement des enfants, bien que certains éléments sont datés.";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:11:"placeholder";s:0:"";s:9:"new_lines";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[single_site_text_content]]></excerpt:encoded>
+		<wp:post_id>124</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 14:21:37]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 14:21:37]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 14:21:37]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 14:21:37]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6839be7e172a6]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>114</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
 					<item>
 		<title><![CDATA[Rentrée]]></title>
 		<link>http://vieux-moulin.test/accueil/rentree/</link>
@@ -645,34 +1205,6 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
 		<wp:meta_value><![CDATA[Un groupe de 10 enfants levant les bras, vus de dos, face à un mur blanc sur lequel figure le logo du Vieux Moulin]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Contenu des pages]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field-group&#038;p=33</link>
-		<pubDate>Mon, 19 May 2025 14:10:39 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field-group&#038;p=33</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:8:{s:8:"location";a:2:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"page";}}i:1;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;}]]></content:encoded>
-		<excerpt:encoded><![CDATA[contenu-des-pages]]></excerpt:encoded>
-		<wp:post_id>33</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-19 14:10:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-05-19 14:10:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-28 07:03:10]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-28 07:03:10]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[group_682b32b938501]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -714,7 +1246,7 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 							</item>
 					<item>
 		<title><![CDATA[logo-vm simplifié]]></title>
-		<link>http://vieux-moulin.test/logo-vm/</link>
+		<link>http://vieux-moulin.test/accueil/logo-vm/</link>
 		<pubDate>Wed, 21 May 2025 17:30:39 +0000</pubDate>
 		<dc:creator><![CDATA[username]]></dc:creator>
 		<guid isPermaLink="false">http://vieux-moulin.test/wp-content/uploads/2025/05/logo-vm.svg</guid>
@@ -724,13 +1256,13 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 		<wp:post_id>50</wp:post_id>
 		<wp:post_date><![CDATA[2025-05-21 17:30:39]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-05-21 17:30:39]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-21 17:32:42]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-21 17:32:42]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:37:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:37:18]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[logo-vm]]></wp:post_name>
 		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
+		<wp:post_parent>28</wp:post_parent>
 		<wp:menu_order>0</wp:menu_order>
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
@@ -804,6 +1336,67 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://vieux-moulin.test/52/</link>
+		<pubDate>Thu, 22 May 2025 06:57:12 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?p=52</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>52</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 10:49:10]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-22 06:57:12]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:49:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:49:10]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[52]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="header-nav"><![CDATA[Header nav]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[28]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025-05-22]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1155,158 +1748,6 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Titre]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=77</link>
-		<pubDate>Sat, 24 May 2025 09:14:58 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=77</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:1;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
-		<excerpt:encoded><![CDATA[title]]></excerpt:encoded>
-		<wp:post_id>77</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-24 09:14:58]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-05-24 09:14:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-27 20:13:44]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-27 20:13:44]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_68318dd766cff__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>76</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1748376824]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_68318dd766cff]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Texte]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=78</link>
-		<pubDate>Sat, 24 May 2025 09:14:58 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=78</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";i:1;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:11:"placeholder";s:0:"";s:9:"new_lines";s:0:"";}]]></content:encoded>
-		<excerpt:encoded><![CDATA[text_content]]></excerpt:encoded>
-		<wp:post_id>78</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-24 09:14:58]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-05-24 09:14:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-27 20:13:44]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-27 20:13:44]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_68318dfa66d00__trashed]]></wp:post_name>
-		<wp:status><![CDATA[trash]]></wp:status>
-		<wp:post_parent>76</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_status]]></wp:meta_key>
-		<wp:meta_value><![CDATA[publish]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_trash_meta_time]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1748376824]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_desired_post_slug]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_68318dfa66d00]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Texte du formulaire de dons]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field-group&#038;p=82</link>
-		<pubDate>Tue, 27 May 2025 09:27:23 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field-group&#038;p=82</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:8:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:13:"page_template";s:8:"operator";s:2:"==";s:5:"value";s:21:"template-donation.php";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;}]]></content:encoded>
-		<excerpt:encoded><![CDATA[texte-du-formulaire-de-dons]]></excerpt:encoded>
-		<wp:post_id>82</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-27 09:27:23]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-05-27 09:27:23]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-27 09:27:23]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-27 09:27:23]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[group_6835850b15bf2]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Texte de vignette]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field-group&#038;p=86</link>
-		<pubDate>Tue, 27 May 2025 19:37:37 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field-group&#038;p=86</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:8:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:9:"post_type";s:8:"operator";s:2:"==";s:5:"value";s:4:"post";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;}]]></content:encoded>
-		<excerpt:encoded><![CDATA[texte-de-vignette]]></excerpt:encoded>
-		<wp:post_id>86</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-27 19:37:37]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-05-27 19:37:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-27 19:37:37]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-27 19:37:37]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[group_683614237bec6]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Texte de vignette]]></title>
-		<link>http://vieux-moulin.test/?post_type=acf-field&#038;p=87</link>
-		<pubDate>Tue, 27 May 2025 19:37:37 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?post_type=acf-field&#038;p=87</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:11:{s:10:"aria-label";s:0:"";s:4:"type";s:4:"text";s:12:"instructions";s:13:"max. 2 lignes";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";i:300;s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
-		<excerpt:encoded><![CDATA[article_thumbnail_text]]></excerpt:encoded>
-		<wp:post_id>87</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-27 19:37:37]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-05-27 19:37:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-27 19:37:37]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-27 19:37:37]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_683614232e949]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>86</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
 		<title><![CDATA[]]></title>
 		<link>http://vieux-moulin.test/92/</link>
 		<pubDate>Wed, 28 May 2025 06:46:17 +0000</pubDate>
@@ -1361,6 +1802,285 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://vieux-moulin.test/97/</link>
+		<pubDate>Wed, 28 May 2025 09:54:16 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/97/</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>97</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 09:54:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 09:54:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 09:54:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 09:54:16]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[97]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="footer-nav"><![CDATA[Footer nav]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[96]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[logo-wallonie-bruxelles]]></title>
+		<link>http://vieux-moulin.test/accueil/logo-wb/</link>
+		<pubDate>Wed, 28 May 2025 10:29:47 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/wp-content/uploads/2025/05/logo-wb.svg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>104</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 10:29:47]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 10:29:47]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:31:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:31:08]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[logo-wb]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>28</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://vieux-moulin.test/wp-content/uploads/2025/05/logo-wb.svg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/05/logo-wb.svg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:4:{s:5:"width";i:597;s:6:"height";i:572;s:4:"file";s:19:"2025/05/logo-wb.svg";s:5:"sizes";a:6:{s:9:"thumbnail";a:5:{s:5:"width";s:3:"150";s:6:"height";s:3:"150";s:4:"crop";s:1:"1";s:4:"file";s:11:"logo-wb.svg";s:9:"mime-type";s:13:"image/svg+xml";}s:6:"medium";a:5:{s:5:"width";s:3:"300";s:6:"height";s:3:"300";s:4:"crop";b:0;s:4:"file";s:11:"logo-wb.svg";s:9:"mime-type";s:13:"image/svg+xml";}s:12:"medium_large";a:5:{s:5:"width";s:3:"768";s:6:"height";s:1:"0";s:4:"crop";b:0;s:4:"file";s:11:"logo-wb.svg";s:9:"mime-type";s:13:"image/svg+xml";}s:5:"large";a:5:{s:5:"width";s:4:"1024";s:6:"height";s:4:"1024";s:4:"crop";b:0;s:4:"file";s:11:"logo-wb.svg";s:9:"mime-type";s:13:"image/svg+xml";}s:9:"1536x1536";a:5:{s:5:"width";i:1536;s:6:"height";i:1536;s:4:"crop";i:0;s:4:"file";s:11:"logo-wb.svg";s:9:"mime-type";s:13:"image/svg+xml";}s:9:"2048x2048";a:5:{s:5:"width";i:2048;s:6:"height";i:2048;s:4:"crop";i:0;s:4:"file";s:11:"logo-wb.svg";s:9:"mime-type";s:13:"image/svg+xml";}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Logo de la Fédération Wallonie-Bruxelles, faits d'un W en rouge et jaune, et d'un B bleu, avec son nom réécrit en-dessous.]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[f-roi-baudouin]]></title>
+		<link>http://vieux-moulin.test/accueil/f-roi-baudouin/</link>
+		<pubDate>Wed, 28 May 2025 10:36:10 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/wp-content/uploads/2025/05/f-roi-baudouin.svg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>105</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 10:36:10]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 10:36:10]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:37:14]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:37:14]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[f-roi-baudouin]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>28</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://vieux-moulin.test/wp-content/uploads/2025/05/f-roi-baudouin.svg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/05/f-roi-baudouin.svg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:4:{s:5:"width";i:311;s:6:"height";i:127;s:4:"file";s:26:"2025/05/f-roi-baudouin.svg";s:5:"sizes";a:6:{s:9:"thumbnail";a:5:{s:5:"width";s:3:"150";s:6:"height";s:3:"150";s:4:"crop";s:1:"1";s:4:"file";s:18:"f-roi-baudouin.svg";s:9:"mime-type";s:13:"image/svg+xml";}s:6:"medium";a:5:{s:5:"width";s:3:"300";s:6:"height";s:3:"300";s:4:"crop";b:0;s:4:"file";s:18:"f-roi-baudouin.svg";s:9:"mime-type";s:13:"image/svg+xml";}s:12:"medium_large";a:5:{s:5:"width";s:3:"768";s:6:"height";s:1:"0";s:4:"crop";b:0;s:4:"file";s:18:"f-roi-baudouin.svg";s:9:"mime-type";s:13:"image/svg+xml";}s:5:"large";a:5:{s:5:"width";s:4:"1024";s:6:"height";s:4:"1024";s:4:"crop";b:0;s:4:"file";s:18:"f-roi-baudouin.svg";s:9:"mime-type";s:13:"image/svg+xml";}s:9:"1536x1536";a:5:{s:5:"width";i:1536;s:6:"height";i:1536;s:4:"crop";i:0;s:4:"file";s:18:"f-roi-baudouin.svg";s:9:"mime-type";s:13:"image/svg+xml";}s:9:"2048x2048";a:5:{s:5:"width";i:2048;s:6:"height";i:2048;s:4:"crop";i:0;s:4:"file";s:18:"f-roi-baudouin.svg";s:9:"mime-type";s:13:"image/svg+xml";}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Logo de la Fondation Roi Baudouin, représenté par un B couronné. En dessous est écrit le texte suivant : Agir ensemble pour une société meilleure]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[vieux_moulin_interior_1]]></title>
+		<link>http://vieux-moulin.test/home-site/58/t/</link>
+		<pubDate>Fri, 30 May 2025 10:13:34 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/wp-content/uploads/2025/05/t.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>119</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 10:13:34]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 10:13:34]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 10:15:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 10:15:10]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[t]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>58</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://vieux-moulin.test/wp-content/uploads/2025/05/t.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/05/t.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:1734;s:6:"height";i:977;s:4:"file";s:13:"2025/05/t.jpg";s:8:"filesize";i:150410;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:13:"t-300x169.jpg";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:13149;}s:5:"large";a:5:{s:4:"file";s:14:"t-1024x577.jpg";s:5:"width";i:1024;s:6:"height";i:577;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:82231;}s:9:"thumbnail";a:5:{s:4:"file";s:13:"t-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:8615;}s:12:"medium_large";a:5:{s:4:"file";s:13:"t-768x433.jpg";s:5:"width";i:768;s:6:"height";i:433;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:51184;}s:9:"1536x1536";a:5:{s:4:"file";s:14:"t-1536x865.jpg";s:5:"width";i:1536;s:6:"height";i:865;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:161126;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Une photo de l’intérieur du Vieux Moulin, montrant une salle avec un tapis de jeu au sol, des tables couvertes de jouets pour enfants, et des fenêtres vers l'extérieur montrant la cour intérieure bordée de verdure]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[vieux_moulin_extérieur_1]]></title>
+		<link>http://vieux-moulin.test/home-site/58/20240118_113458/</link>
+		<pubDate>Fri, 30 May 2025 10:16:51 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/wp-content/uploads/2025/05/20240118_113458.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>120</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 10:16:51]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 10:16:51]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 10:18:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 10:18:32]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[20240118_113458]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>58</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://vieux-moulin.test/wp-content/uploads/2025/05/20240118_113458.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/05/20240118_113458.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:2000;s:6:"height";i:1500;s:4:"file";s:27:"2025/05/20240118_113458.jpg";s:8:"filesize";i:597206;s:5:"sizes";a:5:{s:6:"medium";a:5:{s:4:"file";s:27:"20240118_113458-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:16159;}s:5:"large";a:5:{s:4:"file";s:28:"20240118_113458-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:167965;}s:9:"thumbnail";a:5:{s:4:"file";s:27:"20240118_113458-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:5968;}s:12:"medium_large";a:5:{s:4:"file";s:27:"20240118_113458-768x576.jpg";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:94483;}s:9:"1536x1536";a:5:{s:4:"file";s:29:"20240118_113458-1536x1152.jpg";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:375320;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"1";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Photo représentant la cour du Vieux Moulin, avec divers éléments de parc d’amusement extérieur, sous la neige.]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[vieux_moilin_interior_2]]></title>
+		<link>http://vieux-moulin.test/home-site/58/s3/</link>
+		<pubDate>Fri, 30 May 2025 10:22:26 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/wp-content/uploads/2025/05/s3.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>121</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 10:22:26]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 10:22:26]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 10:24:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 10:24:18]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[s3]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>58</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://vieux-moulin.test/wp-content/uploads/2025/05/s3-scaled.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/05/s3-scaled.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:7:{s:5:"width";i:2560;s:6:"height";i:1920;s:4:"file";s:21:"2025/05/s3-scaled.jpg";s:8:"filesize";i:362361;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:14:"s3-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:11324;}s:5:"large";a:5:{s:4:"file";s:15:"s3-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:73986;}s:9:"thumbnail";a:5:{s:4:"file";s:14:"s3-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:5093;}s:12:"medium_large";a:5:{s:4:"file";s:14:"s3-768x576.jpg";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:47259;}s:9:"1536x1536";a:5:{s:4:"file";s:16:"s3-1536x1152.jpg";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:142382;}s:9:"2048x2048";a:5:{s:4:"file";s:16:"s3-2048x1536.jpg";s:5:"width";i:2048;s:6:"height";i:1536;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:235916;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:6:"s3.jpg";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Une photo de trois enfants assis dans un canapé, tenant les manettes d'une console en main, faisant face à un écran plat accroché au mur.]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[vieux_moulin_interior_3]]></title>
+		<link>http://vieux-moulin.test/home-site/58/attachment/44/</link>
+		<pubDate>Fri, 30 May 2025 10:33:14 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/wp-content/uploads/2025/05/44.jpg</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>122</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-30 10:33:14]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-30 10:33:14]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 10:35:08]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 10:35:08]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[44]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>58</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://vieux-moulin.test/wp-content/uploads/2025/05/44-scaled.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/05/44-scaled.jpg]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:7:{s:5:"width";i:2560;s:6:"height";i:1920;s:4:"file";s:21:"2025/05/44-scaled.jpg";s:8:"filesize";i:462440;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:14:"44-300x225.jpg";s:5:"width";i:300;s:6:"height";i:225;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:11940;}s:5:"large";a:5:{s:4:"file";s:15:"44-1024x768.jpg";s:5:"width";i:1024;s:6:"height";i:768;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:92577;}s:9:"thumbnail";a:5:{s:4:"file";s:14:"44-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:4983;}s:12:"medium_large";a:5:{s:4:"file";s:14:"44-768x576.jpg";s:5:"width";i:768;s:6:"height";i:576;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:56391;}s:9:"1536x1536";a:5:{s:4:"file";s:16:"44-1536x1152.jpg";s:5:"width";i:1536;s:6:"height";i:1152;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:187276;}s:9:"2048x2048";a:5:{s:4:"file";s:16:"44-2048x1536.jpg";s:5:"width";i:2048;s:6:"height";i:1536;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:312636;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}s:14:"original_image";s:6:"44.jpg";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Photo représentant une pièce avec au centre un grand canapé et une table de salon, ainsi qu'une télévision contre le mur en face du canapé. Une fenêtre double laisse entrer la lumière dans la pièce. Trois jeunes au visage flouté sont installés dans le canapé.]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1683,8 +2403,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<wp:post_id>28</wp:post_id>
 		<wp:post_date><![CDATA[2025-05-19 13:10:29]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-05-19 13:10:29]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-23 09:36:54]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-23 09:36:54]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-06-01 11:28:53]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-06-01 11:28:53]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[accueil]]></wp:post_name>
@@ -1814,11 +2534,171 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[main-content]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		<wp:meta_value><![CDATA[2]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_main-content]]></wp:meta_key>
 		<wp:meta_value><![CDATA[field_682b32b9109b0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_0_section_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_0_section_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_68318a6c243b3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnerships_0_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Vieux Moulin]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnerships_0_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e203bd522]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnerships_0_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[50]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnerships_0_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e215bd523]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnerships_1_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Fédération Wallonie-Bruxelles]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnerships_1_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e203bd522]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnerships_1_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[104]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnerships_1_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e215bd523]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnerships_2_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Fondation Roi Baudouin]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnerships_2_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e203bd522]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnerships_2_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[105]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnerships_2_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e215bd523]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnerships]]></wp:meta_key>
+		<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnerships]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e1e8bd521]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnerships_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Nos partenaires]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnerships_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e82e57527]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_1_content_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[cta_donation]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_1_content_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b35dc109b5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_1_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Nous aider]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_1_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b356d109b3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_1_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Vous ne le savez peut-être pas, mais vous pouvez vous aussi aider les jeunes au Vieux Moulin. Ils ont besoin de support. Vous pouvez faire des dons, ou participer d'une autre manière en faisant du bénévolat de temps en temps.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_1_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b359b109b4]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_1_section_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_1_section_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_68318a6c243b3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnership_rows_0_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Vieux Moulin]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnership_rows_0_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e203bd522]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnership_rows_0_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[50]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnership_rows_0_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e215bd523]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnership_rows_1_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Fédération Wallonie-Bruxelles]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnership_rows_1_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e203bd522]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnership_rows_1_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[104]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnership_rows_1_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e215bd523]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnership_rows_2_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Fondation Roi Baudouin]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnership_rows_2_name]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e203bd522]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnership_rows_2_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[105]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnership_rows_2_image]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e215bd523]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[partnership_rows]]></wp:meta_key>
+		<wp:meta_value><![CDATA[3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_partnership_rows]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6836e1e8bd521]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -1921,67 +2801,6 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[]]></title>
-		<link>http://vieux-moulin.test/52/</link>
-		<pubDate>Thu, 22 May 2025 06:57:12 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/?p=52</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>52</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-28 06:46:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-05-22 06:57:12]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-28 06:46:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-28 06:46:39]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[52]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="header-nav"><![CDATA[Header nav]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[28]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-05-22]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Articles]]></title>
 		<link>http://vieux-moulin.test/articles/</link>
 		<pubDate>Thu, 22 May 2025 10:06:52 +0000</pubDate>
@@ -2051,67 +2870,6 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[]]></title>
-		<link>http://vieux-moulin.test/55/</link>
-		<pubDate>Thu, 22 May 2025 10:06:52 +0000</pubDate>
-		<dc:creator><![CDATA[username]]></dc:creator>
-		<guid isPermaLink="false">http://vieux-moulin.test/55/</guid>
-		<description></description>
-		<content:encoded><![CDATA[ ]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>55</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-28 06:46:39]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-05-22 10:06:52]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-28 06:46:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-28 06:46:39]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[55]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="header-nav"><![CDATA[Header nav]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[53]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[page]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_old_date]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025-05-22]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[Le Vieux Moulin]]></title>
 		<link>http://vieux-moulin.test/home-site/58/</link>
 		<pubDate>Thu, 22 May 2025 10:24:37 +0000</pubDate>
@@ -2123,8 +2881,8 @@ Notre travail est de permettre à ces jeunes de grandir dans un environnement le
 		<wp:post_id>58</wp:post_id>
 		<wp:post_date><![CDATA[2025-05-22 10:24:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-05-22 10:24:37]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-23 09:47:44]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-23 09:47:44]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 14:22:02]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 14:22:02]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[58]]></wp:post_name>
@@ -2207,6 +2965,126 @@ Malgré son ancienneté, et son besoin de rénovations, le bâtiment permet de r
 		<wp:meta_key><![CDATA[_main-content]]></wp:meta_key>
 		<wp:meta_value><![CDATA[field_682b32b9109b0]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_0_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Infrastructure]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_0_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839836c043f3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_0_img]]></wp:meta_key>
+		<wp:meta_value><![CDATA[119]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_0_img]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839838f043f4]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_0_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Il y a tout ce qu’il faut pour satisfaire les besoins des jeunes : Des chambes, des lits, une salle à manger, une salle de jeu, un espace de jeu à l’extérieur, etc, etc.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_0_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_683983be043f5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_1_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Les besoins de nos jeunes]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_1_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839836c043f3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_1_img]]></wp:meta_key>
+		<wp:meta_value><![CDATA[120]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_1_img]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839838f043f4]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_1_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Nos éducateurs sont à l’écoute et feront de leur mieux pour aider, veillant à leur sécurité et leur santé, aussi bien physique que mentale.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_1_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_683983be043f5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_2_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[À la fois vieux et neuf]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_2_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839836c043f3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_2_img]]></wp:meta_key>
+		<wp:meta_value><![CDATA[121]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_2_img]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839838f043f4]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_2_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Même si le Vieux Moulin est un ancien bâtiment rénové, il reste bien à jour. Les jeunes ont accès à la télévision, et ont même une console pour jouer aux jeux vidéos ensemble si ils le souhaitent.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_2_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_683983be043f5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_3_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Le salon des ado]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_3_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839836c043f3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_3_img]]></wp:meta_key>
+		<wp:meta_value><![CDATA[122]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_3_img]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839838f043f4]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images_3_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Pour nos adolescents qui souhaitent un peu de tranquillité, à l’écart des cris des plus jeunes, il y a un petit salon réservé à cet effet. Seuls les jeunes de plus de 12 ans peuvent y entrer, et profiter d'un peu de calme.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images_3_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_683983be043f5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images]]></wp:meta_key>
+		<wp:meta_value><![CDATA[4]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_68398329043f2]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[single_site_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Le Vieux Moulin]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_single_site_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839be4c172a5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[single_site_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Le Vieux Moulin est situé à Strainchamps, accueillant actuellement 18 jeunes, avec 24 personnes en effectif, comprenant les éducateurs et le personnel d’entretient. Malgré son apparence rustique, le bâtiment possède toutes les installations nécessaires au développement des enfants, bien que certains éléments sont datés.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_single_site_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839be7e172a6]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Edelweiss]]></title>
@@ -2220,8 +3098,8 @@ Malgré son ancienneté, et son besoin de rénovations, le bâtiment permet de r
 		<wp:post_id>66</wp:post_id>
 		<wp:post_date><![CDATA[2025-05-23 09:47:19]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-05-23 09:47:19]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-23 09:47:19]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-23 09:47:19]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-05-30 14:22:16]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-30 14:22:16]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[edelweiss]]></wp:post_name>
@@ -2271,6 +3149,30 @@ Malgré son ancienneté, et son besoin de rénovations, le bâtiment permet de r
 		<wp:meta_key><![CDATA[_main-content]]></wp:meta_key>
 		<wp:meta_value><![CDATA[field_682b32b9109b0]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[single_site_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Edelweiss]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_single_site_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839be4c172a5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[single_site_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Le Vieux Moulin est situé à Strainchamps, accueillant actuellement 18 jeunes, avec 24 personnes en effectif, comprenant les éducateurs et le personnel d’entretient. Malgré son apparence rustique, le bâtiment possède toutes les installations nécessaires au développement des enfants, bien que certains éléments sont datés.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_single_site_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_6839be7e172a6]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[site_images]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_site_images]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_68398329043f2]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[Dons et bénévolat]]></title>
@@ -2284,8 +3186,8 @@ Malgré son ancienneté, et son besoin de rénovations, le bâtiment permet de r
 		<wp:post_id>68</wp:post_id>
 		<wp:post_date><![CDATA[2025-05-24 08:56:47]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-05-24 08:56:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-28 07:03:49]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-28 07:03:49]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-05-29 08:45:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-29 08:45:48]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[dons-et-benevolat]]></wp:post_name>
@@ -2376,46 +3278,6 @@ Sachez, pour les entreprises, que tout don de plus de 40€ chez nous sera dédu
 		<wp:meta_value><![CDATA[field_68318a6c243b3]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[main-content_1_content_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[article]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_main-content_1_content_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_682b35dc109b5]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[main-content_1_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Nos projets à financer]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_main-content_1_title]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_682b356d109b3]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[main-content_1_text_content]]></wp:meta_key>
-		<wp:meta_value><![CDATA[Comme dit plus haut, nous avons tout un tas de projets à financer. Et ce ne sera possible que grâce à vous. Voici la liste de tous les projets sur lesquels vous pourriez nous aider, que vous pourriez financer pour aider nos jeunes. Un simple petit don peut faire la différence.]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_main-content_1_text_content]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_682b359b109b4]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[main-content_1_article_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[funding]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_main-content_1_article_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_682b3a96109bb]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[main-content_1_section_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_main-content_1_section_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[field_68318a6c243b3]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
 		<wp:meta_key><![CDATA[main-content_2_content_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[text]]></wp:meta_value>
 		</wp:postmeta>
@@ -2464,6 +3326,54 @@ Si vous habitez proche d'une de nos maisons, et que vous êtes intéressés de d
 		<wp:meta_key><![CDATA[_donation_text]]></wp:meta_key>
 		<wp:meta_value><![CDATA[field_6835853d9862e]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_2_article_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[funding]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_2_article_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b3a96109bb]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_1_content_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[article]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_1_content_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b35dc109b5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_1_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Nos projets à financer]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_1_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b356d109b3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_1_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Comme dit plus haut, nous avons tout un tas de projets à financer. Et ce ne sera possible que grâce à vous. Voici la liste de tous les projets sur lesquels vous pourriez nous aider, que vous pourriez financer pour aider nos jeunes. Un simple petit don peut faire la différence.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_1_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b359b109b4]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_1_article_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[funding]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_1_article_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b3a96109bb]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_1_section_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_1_section_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_68318a6c243b3]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[]]></title>
@@ -2475,10 +3385,10 @@ Si vous habitez proche d'une de nos maisons, et que vous êtes intéressés de d
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>71</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-28 06:46:39]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-05-28 10:49:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-05-24 08:56:47]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-28 06:46:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-28 06:46:39]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:49:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:49:10]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[71]]></wp:post_name>
@@ -2588,8 +3498,8 @@ Si vous habitez proche d'une de nos maisons, et que vous êtes intéressés de d
 		<wp:post_id>91</wp:post_id>
 		<wp:post_date><![CDATA[2025-05-28 06:46:17]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-05-28 06:46:17]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-28 06:46:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-28 06:46:17]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-05-29 08:40:12]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-29 08:40:12]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[contact]]></wp:post_name>
@@ -2637,11 +3547,43 @@ Si vous habitez proche d'une de nos maisons, et que vous êtes intéressés de d
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[main-content]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_main-content]]></wp:meta_key>
 		<wp:meta_value><![CDATA[field_682b32b9109b0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_0_content_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[text]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_0_content_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b35dc109b5]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_0_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Pour nous contacter]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_0_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b356d109b3]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_0_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Vous pouvez nous contacter via l'adresse mail ci-dessous, ou en envoyant un mail directement depuis ce formulaire de contact.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_0_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b359b109b4]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content_0_section_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content_0_section_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_68318a6c243b3]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
@@ -2654,13 +3596,134 @@ Si vous habitez proche d'une de nos maisons, et que vous êtes intéressés de d
 		<content:encoded><![CDATA[ ]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>93</wp:post_id>
-		<wp:post_date><![CDATA[2025-05-28 06:46:39]]></wp:post_date>
+		<wp:post_date><![CDATA[2025-05-28 10:49:10]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-05-28 06:46:17]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-05-28 06:46:39]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-05-28 06:46:39]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:49:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:49:10]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[93]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="header-nav"><![CDATA[Header nav]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[post_type]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[91]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[page]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Juridiction]]></title>
+		<link>http://vieux-moulin.test/juridiction/</link>
+		<pubDate>Wed, 28 May 2025 09:54:16 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/?page_id=96</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>96</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 09:54:16]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 09:54:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:13:29]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:13:29]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[juridiction]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[page]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														<wp:postmeta>
+		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
+		<wp:meta_value><![CDATA[1]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_page_template]]></wp:meta_key>
+		<wp:meta_value><![CDATA[default]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[thumbnail_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Bienvenue sur le site du Vieux Moulin !]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_title]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682c2f4f68161]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[thumbnail_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[Si vous voulez en savoir plus sur les programmes suivis ou sur les documents juridiques, ils sont tous (ou presque) à disposition sur cette page. Vous pouvez les consulter et les télécharger à tout moment.]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_thumbnail_text_content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682c2fe468162]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[slider]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_slider]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b28fdfc25e]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[main-content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_main-content]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_682b32b9109b0]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[]]></title>
+		<link>http://vieux-moulin.test/98/</link>
+		<pubDate>Wed, 28 May 2025 09:54:16 +0000</pubDate>
+		<dc:creator><![CDATA[username]]></dc:creator>
+		<guid isPermaLink="false">http://vieux-moulin.test/98/</guid>
+		<description></description>
+		<content:encoded><![CDATA[ ]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>98</wp:post_id>
+		<wp:post_date><![CDATA[2025-05-28 10:49:10]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-05-28 09:54:16]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-05-28 10:49:10]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-05-28 10:49:10]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[98]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
 		<wp:menu_order>3</wp:menu_order>
@@ -2678,7 +3741,7 @@ Si vous habitez proche d'une de nos maisons, et que vous êtes intéressés de d
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[91]]></wp:meta_value>
+		<wp:meta_value><![CDATA[96]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>

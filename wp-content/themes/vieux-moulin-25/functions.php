@@ -1,8 +1,8 @@
 <?php
 
 
-//TODO Charger les champs ACF exportés
-//include_once('fields.php');
+// Charger les champs ACF exportés
+include_once('fields.php');
 
 // Disable Gutenberg on the back end.
 add_filter('use_block_editor_for_post', '__return_false');

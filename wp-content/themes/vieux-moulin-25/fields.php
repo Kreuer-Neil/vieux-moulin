@@ -1,10 +1,10 @@
 <?php
-add_action('acf/include_fields', function () {
-    if (!function_exists('acf_add_local_field_group')) {
+add_action( 'acf/include_fields', function() {
+    if ( ! function_exists( 'acf_add_local_field_group' ) ) {
         return;
     }
 
-    acf_add_local_field_group(array(
+    acf_add_local_field_group( array(
         'key' => 'group_682b32b938501',
         'title' => 'Contenu des pages',
         'fields' => array(
@@ -185,12 +185,52 @@ add_action('acf/include_fields', function () {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ));
+    ) );
 
-    acf_add_local_field_group(array(
+    acf_add_local_field_group( array(
         'key' => 'group_683983290a489',
         'title' => 'Contenu des sites/maisons',
         'fields' => array(
+            array(
+                'key' => 'field_6839be4c172a5',
+                'label' => 'Sous-titre',
+                'name' => 'single_site_title',
+                'aria-label' => '',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '%title%',
+                'maxlength' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+            ),
+            array(
+                'key' => 'field_6839be7e172a6',
+                'label' => 'Texte d\'en-tête',
+                'name' => 'single_site_text_content',
+                'aria-label' => '',
+                'type' => 'textarea',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => 'Le Vieux Moulin est situé à Strainchamps, accueillant actuellement 18 jeunes, avec 24 personnes en effectif, comprenant les éducateurs et le personnel d’entretient. Malgré son apparence rustique, le bâtiment possède toutes les installations nécessaires au développement des enfants, bien que certains éléments sont datés.',
+                'maxlength' => '',
+                'rows' => '',
+                'placeholder' => '',
+                'new_lines' => '',
+            ),
             array(
                 'key' => 'field_68398329043f2',
                 'label' => 'Images du site',
@@ -302,9 +342,9 @@ add_action('acf/include_fields', function () {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ));
+    ) );
 
-    acf_add_local_field_group(array(
+    acf_add_local_field_group( array(
         'key' => 'group_682b28fcdf585',
         'title' => 'Header sliders',
         'fields' => array(
@@ -468,9 +508,9 @@ add_action('acf/include_fields', function () {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ));
+    ) );
 
-    acf_add_local_field_group(array(
+    acf_add_local_field_group( array(
         'key' => 'group_6836e1e7e196d',
         'title' => 'Partenariats',
         'fields' => array(
@@ -584,9 +624,9 @@ add_action('acf/include_fields', function () {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ));
+    ) );
 
-    acf_add_local_field_group(array(
+    acf_add_local_field_group( array(
         'key' => 'group_683614237bec6',
         'title' => 'Texte de vignette',
         'fields' => array(
@@ -629,9 +669,9 @@ add_action('acf/include_fields', function () {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ));
+    ) );
 
-    acf_add_local_field_group(array(
+    acf_add_local_field_group( array(
         'key' => 'group_6835850b15bf2',
         'title' => 'Texte du formulaire de dons',
         'fields' => array(
@@ -694,5 +734,6 @@ add_action('acf/include_fields', function () {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ));
-});
+    ) );
+} );
+
