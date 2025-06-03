@@ -1,10 +1,10 @@
 <?php
-add_action( 'acf/include_fields', function() {
-    if ( ! function_exists( 'acf_add_local_field_group' ) ) {
+add_action('acf/include_fields', function () {
+    if (!function_exists('acf_add_local_field_group')) {
         return;
     }
 
-    acf_add_local_field_group( array(
+    acf_add_local_field_group(array(
         'key' => 'group_682b32b938501',
         'title' => 'Contenu des pages',
         'fields' => array(
@@ -174,6 +174,11 @@ add_action( 'acf/include_fields', function() {
                     'operator' => '==',
                     'value' => 'post',
                 ),
+                array(
+                    'param' => 'post_type',
+                    'operator' => '!=',
+                    'value' => 'contact_message',
+                ),
             ),
         ),
         'menu_order' => 0,
@@ -185,9 +190,9 @@ add_action( 'acf/include_fields', function() {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ) );
+    ));
 
-    acf_add_local_field_group( array(
+    acf_add_local_field_group(array(
         'key' => 'group_683983290a489',
         'title' => 'Contenu des sites/maisons',
         'fields' => array(
@@ -342,9 +347,9 @@ add_action( 'acf/include_fields', function() {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ) );
+    ));
 
-    acf_add_local_field_group( array(
+    acf_add_local_field_group(array(
         'key' => 'group_682b28fcdf585',
         'title' => 'Header sliders',
         'fields' => array(
@@ -490,12 +495,22 @@ add_action( 'acf/include_fields', function() {
                     'operator' => '==',
                     'value' => 'page',
                 ),
+                array(
+                    'param' => 'post_type',
+                    'operator' => '!=',
+                    'value' => 'contact_message',
+                ),
             ),
             array(
                 array(
                     'param' => 'post_type',
                     'operator' => '!=',
                     'value' => 'post',
+                ),
+                array(
+                    'param' => 'post_type',
+                    'operator' => '!=',
+                    'value' => 'contact_message',
                 ),
             ),
         ),
@@ -508,9 +523,9 @@ add_action( 'acf/include_fields', function() {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ) );
+    ));
 
-    acf_add_local_field_group( array(
+    acf_add_local_field_group(array(
         'key' => 'group_6836e1e7e196d',
         'title' => 'Partenariats',
         'fields' => array(
@@ -624,9 +639,9 @@ add_action( 'acf/include_fields', function() {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ) );
+    ));
 
-    acf_add_local_field_group( array(
+    acf_add_local_field_group(array(
         'key' => 'group_683614237bec6',
         'title' => 'Texte de vignette',
         'fields' => array(
@@ -669,9 +684,9 @@ add_action( 'acf/include_fields', function() {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ) );
+    ));
 
-    acf_add_local_field_group( array(
+    acf_add_local_field_group(array(
         'key' => 'group_6835850b15bf2',
         'title' => 'Texte du formulaire de dons',
         'fields' => array(
@@ -734,6 +749,6 @@ add_action( 'acf/include_fields', function() {
         'active' => true,
         'description' => '',
         'show_in_rest' => 0,
-    ) );
-} );
+    ));
+});
 

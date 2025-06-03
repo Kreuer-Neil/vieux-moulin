@@ -91,8 +91,13 @@ if (have_rows('main-content')): while (have_rows('main-content')):
            class="cta cta--about">En savoir plus</a>
         <a title="Aller vers la page de dons" href="<?= get_permalink('donate') . '#donate' ?>" class="cta">Donner</a>
     </div>
-<?php endif; ?>
+<?php elseif($rowType === 'image'):
+    $rowImage = get_sub_field('img') ?>
+
+    <img src="<?= $rowImage['url'] ?>" alt="<?= $rowImage['alt'] ?>" class="content__image">
+
+<?php //TODO add container div + multiple img support maybe ?
+endif; ?>
 
     <?= '</' . $sectionType . '>' ?>
-<?php endwhile; endif;
-// TODO add img component type & support ?>
+<?php endwhile; endif; ?>
