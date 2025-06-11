@@ -4,7 +4,7 @@
     <a href="#main" id="escape-link" tabindex="1" title="Lien d’évitement">Aller au contenu principal</a>
 
     <div class="navbar__container">
-        <a href="<?= get_page_link(28) ?>" class="navbar__logo__link" title="Retourner à l’accueil">
+        <a href="<?= get_home_url() ?>" tabindex="1" class="navbar__logo__link" title="Retourner à l’accueil">
             <svg class="navbar__logo" xmlns="http://www.w3.org/2000/svg" width="112px" height="72px" fill="none"
                  viewBox="0 0 510 327">
                 <path fill="#fff" d="M0 0h510v326H0z"/>
@@ -19,7 +19,7 @@
             </svg>
         </a>
 
-        <?php $navLinks = dw_get_navigation_links('main');
+        <?php $navLinks = vm_get_navigation_links('main');
         if ($navLinks): ?>
             <ul class="navbar__subcontainer">
                 <?php foreach ($navLinks as $navLink): ?>
@@ -43,20 +43,33 @@
 
 <footer class="footer">
     <div class="footer__container">
+        <?php if ($footNavLinks = vm_get_navigation_links('footer')): ?>
+            <nav class="footer__item footer__item--nav">
+                <h2 class="footer__item__title">Navigation<span class="sro"> de pied de page</span></h2>
+                <ul class="footer__item__container">
+                    <?php foreach ($footNavLinks as $footNavLink): ?>
+                        <li class="footer__item__li">
+                            <a href="<?= $footNavLink->url ?>" class="footer__item__link"><?= $footNavLink->label ?></a>
+                        </li>
+                    <?php endforeach; ?>
+                </ul>
+            </nav>
+        <?php endif; ?>
 
-        <nav class="footer__nav">
-            <h2 class="footer__nav__title sro">Navigation de pied de page</h2>
-            <?php if ($footNavLinks = dw_get_navigation_links('footer')) ?>
-            <ul class="footer__nav__container">
-                <?php foreach ($footNavLinks as $footNavLink): ?>
-                    <li class="footer__nav__li">
-                        <a href="<?= $footNavLink->url ?>" class="footer__nav__link"><?= $footNavLink->label ?></a>
-                    </li>
-                <?php endforeach; ?>
-            </ul>
-        </nav>
-        <p class="footer__copyright">© <?= get_bloginfo('name'); ?></p>
+        <?php if ($socialLinks = vm_get_navigation_links('social')): ?>
+            <aside class="footer__item">
+                <h2 class="footer__item__title">Nos réseaux</h2>
+
+                <ul class="footer__item__container">
+                    <?php foreach ($socialLinks as $socialLink): ?>
+                        <a href="<?= $socialLink->url ?>" class="footer__item__link"><?= $socialLink->label ?></a>
+                    <?php endforeach; ?>
+                </ul>
+            </aside>
+        <?php endif ?>
     </div>
+
+    <p class="footer__copyright">© <?= get_bloginfo('name'); ?></p>
     <?php wp_footer() ?>
 </footer>
 </body>

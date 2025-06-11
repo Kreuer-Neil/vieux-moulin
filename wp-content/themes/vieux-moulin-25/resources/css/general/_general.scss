@@ -1,4 +1,3 @@
-
 //* General style
 
 
@@ -11,19 +10,11 @@
   overflow-x: hidden;
   //Pour des tests
   scroll-behavior: smooth;
+
   &:has(#burger-menu:checked) {
     overflow-y: hidden;
   }
 
-
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-fam-titles);
-    text-align: center;
-    line-height: 1.2;
-  }
-  p {
-    line-height: 1.3;
-  }
 
   main {
     padding: var(--number-padding-double) 0;
@@ -33,6 +24,16 @@
     flex-direction: column;
     align-items: center;
   }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-fam-titles);
+  text-align: center;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.3;
 }
 
 // Admin bar is at 10000 -> adapt
@@ -58,6 +59,7 @@
   text-decoration: none;
   color: var(--color-cta-text);
   border-radius: var(--number-cta-radius);
+  font-size: var(--number-fsize-cta);
 
   &--about {
     background-color: var(--color-main-cta-about-donation);

@@ -34,6 +34,7 @@ add_theme_support('post-thumbnails');
 // Enregistrer des menus de navigation :
 register_nav_menu('main', 'Navigation principale, en-tête du site');
 register_nav_menu('footer', 'Navigation de pied de page');
+register_nav_menu('social', 'Liens de réseaux sociaux');
 
 // Disable default front-end styles.
 add_action('wp_enqueue_scripts', function () {
@@ -53,11 +54,11 @@ if (file_exists($manifestPath)) {
     $manifest = json_decode(file_get_contents($manifestPath), true);
 
     if (isset($manifest['wp-content/themes/vieux-moulin-25/resources/js/main.js'])) {
-        wp_enqueue_script('dw', get_theme_file_uri('public/' . $manifest['wp-content/themes/vieux-moulin-25/resources/js/main.js']['file']), [], null, true);
+        wp_enqueue_script('client', get_theme_file_uri('public/' . $manifest['wp-content/themes/vieux-moulin-25/resources/js/main.js']['file']), [], null, true);
     }
 
     if (isset($manifest['wp-content/themes/vieux-moulin-25/resources/css/styles.scss'])) {
-        wp_enqueue_style('dw', get_theme_file_uri('public/' . $manifest['wp-content/themes/vieux-moulin-25/resources/css/styles.scss']['file']));
+        wp_enqueue_style('client', get_theme_file_uri('public/' . $manifest['wp-content/themes/vieux-moulin-25/resources/css/styles.scss']['file']));
     }
 }
 
@@ -119,13 +120,9 @@ register_taxonomy('news_type', ['post'], [
 ],
 );
 
-function dw_asset(string $file): string
-{
-    return get_template_directory_uri() . '/public/' . $file;
-}
 
 // 2. Retrouver les éléments d'un menu pour une location donnée
-function dw_get_navigation_links(string $location): array
+function vm_get_navigation_links(string $location): array
 {
     // Pour $location, retrouver le menu.
     $locations = get_nav_menu_locations();
@@ -152,6 +149,8 @@ function dw_get_navigation_links(string $location): array
 
 
 
+// Contact
+
 // Ajouter un post-type custom pour sauvegarder les messages de contact
 register_post_type('contact_message', [
     'label' => 'Messages de contact',
@@ -161,29 +160,66 @@ register_post_type('contact_message', [
     'public' => false,
     'show_ui' => true,
     'has_archive' => false,
-    'supports' => ['title','editor'],
+    'supports' => ['title', 'editor'],
 ]);
 
 // Ajouter la fonctionnalité "POST" pour un formulaire de contact personnalisé :
-add_action('admin_post_dw_submit_contact_form', 'dw_handle_contact_form');
-add_action('admin_post_nopriv_dw_submit_contact_form', 'dw_handle_contact_form');
+add_action('admin_post_vm_submit_contact_form', 'vm_handle_contact_form');
+add_action('admin_post_nopriv_vm_submit_contact_form', 'vm_handle_contact_form');
 
-// Chargement de notre class qui va gérer ce formulaire
-require_once(__DIR__.'/forms/ContactForm.php');
+// Get form handling class
+require_once(__DIR__ . '/forms/ContactForm.php');
 
-function dw_handle_contact_form()
+function vm_execute_contact_form()
 {
-    $form = (new forms\ContactForm())
-        ->rule('firstname', 'required')
-        ->rule('lastname', 'required')
-        ->rule('email', 'required')
-        ->rule('email', 'email')
-        ->rule('message', 'required')
-        ->rule('message', 'no_test')
-        ->sanitize('firstname', 'sanitize_text_field')
-        ->sanitize('lastname', 'sanitize_text_field')
-        ->sanitize('email', 'sanitize_text_field')
-        ->sanitize('message', 'sanitize_textarea_field');
+    $config = [
+        'nonce_field' => 'contact_nonce',
+        'nonce_identifier' => 'vm_contact_form',
+    ];
+    (new forms\ContactForm($config, $_POST))
+        ->sanitize([
+            'lastname' => 'text_field',
+            'firstname' => 'text_field',
+            'email' => 'email',
+            'message' => 'textarea_field',
+        ])
+        ->validate([
+            'lastname' => ['required', 'short'],
+            'firstname' => ['required', 'short'],
+            'email' => ['required', 'email'],
+            'message' => ['required'],
+        ])->save(
+            title: fn($data) => $data['lastname'] . $data['firstname'] . ' <' . $data['email'] . '>',
+            content: fn($data) => $data['message'],
+        )
+        ->send(
+            title: fn($data) => 'New message from ' . $data['lastname'] . $data['firstname'],
+            content: fn($data
+            ) => 'Name: ' . $data['lastname'] . $data['firstname'] . PHP_EOL . 'Email: ' . $data['email'] . PHP_EOL . 'Message:' . PHP_EOL . $data['message'],
+        )
+        ->feedback();
+}
 
-    return $form->handle($_POST);
+add_action('admin_post_nopriv_vm_contact_form', 'vm_execute_contact_form');
+add_action('admin_post_vm_contact_form', 'vm_execute_contact_form');
+
+function vm_session_flash(string $key, mixed $value): void
+{
+    if (!isset($_SESSION['vm_flash'])) {
+        $_SESSION['vm_flash'] = [];
+    }
+
+    $_SESSION['vm_flash'][$key] = $value;
+}
+
+function vm_session_get(string $key)
+{
+    if (!(isset($_SESSION['vm_flash']) && array_key_exists($key, $_SESSION['vm_flash']))) {
+        return null;
+    }
+
+    $value = $_SESSION['vm_flash'][$key];
+    unset($_SESSION['vm_flash'][$key]);
+
+    return $value;
 }

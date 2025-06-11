@@ -8,6 +8,7 @@
     flex-direction: column;
     gap: var(--number-padding-small);
     max-width: var(--number-max-container-width);
+    align-items: center;
 
     @include b.sm {
       flex-direction: row;
