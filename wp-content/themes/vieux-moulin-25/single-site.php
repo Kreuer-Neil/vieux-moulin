@@ -23,7 +23,7 @@ if (have_posts()): while (have_posts()): the_post(); ?>
 
             <?php endwhile; ?>
         </div>
-    <?php endif; ?>
+    <?php endif; // TODO add emplacement ?>
 
 <?php endwhile; endif;
 get_footer(); ?>

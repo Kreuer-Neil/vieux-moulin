@@ -31,6 +31,7 @@ add_theme_support('custom-footer');
 add_theme_support('post-thumbnails');
 
 
+
 // Enregistrer des menus de navigation :
 register_nav_menu('main', 'Navigation principale, en-tête du site');
 register_nav_menu('footer', 'Navigation de pied de page');
@@ -54,11 +55,11 @@ if (file_exists($manifestPath)) {
     $manifest = json_decode(file_get_contents($manifestPath), true);
 
     if (isset($manifest['wp-content/themes/vieux-moulin-25/resources/js/main.js'])) {
-        wp_enqueue_script('client', get_theme_file_uri('public/' . $manifest['wp-content/themes/vieux-moulin-25/resources/js/main.js']['file']), [], null, true);
+        wp_enqueue_script('vieux-moulin', get_theme_file_uri('public/' . $manifest['wp-content/themes/vieux-moulin-25/resources/js/main.js']['file']), [], null, true);
     }
 
     if (isset($manifest['wp-content/themes/vieux-moulin-25/resources/css/styles.scss'])) {
-        wp_enqueue_style('client', get_theme_file_uri('public/' . $manifest['wp-content/themes/vieux-moulin-25/resources/css/styles.scss']['file']));
+        wp_enqueue_style('vieux-moulin', get_theme_file_uri('public/' . $manifest['wp-content/themes/vieux-moulin-25/resources/css/styles.scss']['file']));
     }
 }
 

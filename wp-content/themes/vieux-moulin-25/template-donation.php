@@ -15,7 +15,7 @@
             <?= $donation_text ?>
         </p>
     <?php endif; ?>
-
+ <?php //TODO QR CODE !!!!!! ?>
     <form action="/">
         <fieldset class="form__container">
             <div class="form__items">
