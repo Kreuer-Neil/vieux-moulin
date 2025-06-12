@@ -14,7 +14,9 @@ export class Slider {
     }
 
     public init() {
-        this.eventListeners();
+        if (!(this.leftButton === null)) {
+            this.eventListeners();
+        }
     }
 
     private eventListeners() {

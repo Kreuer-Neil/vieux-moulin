@@ -15,8 +15,8 @@ if (have_posts()): while (have_posts()): the_post();
         <?php if ($feedback): ?>
             <p class="contact__success"><?= 'Formulaire envoyé avec succès&nbsp;!' ?></p>
         <?php endif ?>
-        <form action="<?= esc_url(admin_url('admin-post.php')); ?>" method="POST" class="form">
-            <fieldset class="contact__form form__container">
+        <form action="<?= esc_url(admin_url('admin-post.php')); ?>" method="POST" class="contact__form form">
+            <fieldset class="form__container">
                 <div class="field">
                     <label for="lastname" class="field__label">Nom</label>
                     <input type="text" name="lastname" id="lastname" class="field__input">
