@@ -12,8 +12,7 @@
 <header>
     <h1><?= get_the_title() ?></h1>
 
-    <?php //TODO add arrows (buttons with style)
-    if (have_rows('slider')): ?>
+    <?php if (have_rows('slider')): ?>
         <section class="slider">
             <h2 class="sro"><?= 'Slider de la page ' . get_the_title() ?></h2>
             <button class="slider__button slider__button--left no-js">À gauche</button>

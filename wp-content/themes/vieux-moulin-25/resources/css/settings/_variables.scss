@@ -48,6 +48,7 @@
   --number-max-article-width: 30rem; //720px
   --number-max-burger-menu-width: 24rem; //384px
   --number-max-partnership-logos-height: 9rem; //
+  --number-max-qrcode-width: 20rem;
 
   // Paddings
   --number-padding-little: .125rem; // 2px
@@ -65,6 +66,7 @@
   --number-fsize-navbar: 1.25rem;
   --number-fsize-subtitle: 1.5rem;
   --number-fsize-cta: 1.125rem;
+  --number-fsize-small: .75rem;
 
   // Auto gaps
   --number-gap-sections: 1.5rem;
@@ -81,12 +83,11 @@
   // Site card values
   --color-site-title-bg: #F2F2F2B3;
   --number-site-ratio-large: 0.8 / 1;
-  --number-site-max-width: 28.125rem;
+  --number-max-site-width: 28.125rem;
   --number-site-title-height: 3rem;
 
   // Article card values
   --number-article-thingy: 2.75rem;
-
 
 
   //* URLs

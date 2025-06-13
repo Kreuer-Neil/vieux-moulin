@@ -158,4 +158,14 @@
       align-items: center;
     }
   }
+
+  &__navlink {
+    font-size: var(--number-fsize-cta);
+    color: var(--color-main-text);
+    padding: var(--number-padding-mini) var(--number-padding-small);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50%;
+  }
 }

@@ -1,0 +1,24 @@
+@use "../settings/breakpoints" as b;
+
+.donation {
+  &__container {
+    max-width: var(--number-max-container-width);
+    padding: 0 var(--number-padding-simple);
+
+    display: grid;
+    gap: var(--number-padding-simple);
+
+    align-items: center;
+    justify-items: center;
+
+    @include b.md {
+      grid-auto-flow: column;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+.donation-qrcode {
+  width: 100%;
+  max-width: var(--number-max-qrcode-width);
+}

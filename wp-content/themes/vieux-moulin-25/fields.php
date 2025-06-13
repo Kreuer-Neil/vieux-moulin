@@ -130,7 +130,7 @@ add_action('acf/include_fields', function () {
                         'default_value' => false,
                         'return_format' => 'value',
                         'multiple' => 0,
-                        'allow_null' => 0,
+                        'allow_null' => 1,
                         'ui' => 0,
                         'ajax' => 0,
                         'placeholder' => '',
