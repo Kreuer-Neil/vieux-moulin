@@ -505,11 +505,6 @@ add_action('acf/include_fields', function () {
                 array(
                     'param' => 'post_type',
                     'operator' => '!=',
-                    'value' => 'post',
-                ),
-                array(
-                    'param' => 'post_type',
-                    'operator' => '!=',
                     'value' => 'contact_message',
                 ),
             ),

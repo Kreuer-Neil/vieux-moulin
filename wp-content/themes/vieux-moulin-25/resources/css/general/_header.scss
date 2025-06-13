@@ -19,9 +19,8 @@ h1 {
 .slider {
     position: relative;
     width: 100vw;
-    height: calc(100vh - var(--number-main-navbar-height));
+    min-height: calc(100vh - var(--number-main-navbar-height));
     max-width: var(--number-max-container-width-extended);
-    max-height: var(--number-max-container-height);
     border-bottom: var(--number-padding-little) solid var(--color-main-alt-bg);
 
   &__container {
@@ -30,7 +29,6 @@ h1 {
     scroll-snap-type: x mandatory;
     width: 100%;
     height: 100%;
-
   }
 
   &__item {
@@ -39,8 +37,8 @@ h1 {
     min-width: min(100vw, var(--number-max-container-width-extended));
     min-height: 100%;
     display: grid;
-    grid-auto-columns: 1fr 1fr;
     grid-auto-rows: 1fr 1fr;
+    grid-auto-columns: 1fr 1fr;
     max-width: var(--number-max-container-width-extended);
 
     &--single {
@@ -155,6 +153,7 @@ h1 {
 
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 
   &::before {
     // Grey site

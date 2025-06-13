@@ -7,7 +7,6 @@ $articles = new WP_Query([
     'posts_per_page' => '3',
     'orderby' => 'date',
     'order' => 'DESC',
-
 ]);
 
 if ($articles->have_posts()): ?>

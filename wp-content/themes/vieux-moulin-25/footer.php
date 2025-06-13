@@ -62,7 +62,9 @@
 
                 <ul class="footer__item__container">
                     <?php foreach ($socialLinks as $socialLink): ?>
-                        <a href="<?= $socialLink->url ?>" class="footer__item__link"><?= $socialLink->label ?></a>
+                        <li class="footer__item__li">
+                            <a href="<?= $socialLink->url ?>" class="footer__item__link"><?= $socialLink->label ?></a>
+                        </li>
                     <?php endforeach; ?>
                 </ul>
             </aside>

@@ -17,18 +17,19 @@ add_filter('use_widgets_block_editor', '__return_false');
 // Remove WP toolbar
 add_filter('show_admin_bar', '__return_false');
 
-// Remove base widht/height for thumbnail img
-add_filter( 'post_thumbnail_html', 'remove_thumbnail_dimensions', 10, 3 );
-
-function remove_thumbnail_dimensions( $html, $post_id, $post_image_id ) {
-    $html = preg_replace( '/(width|height)=\"\d*\"\s/', "", $html );
-    return $html;
-}
-
 
 add_theme_support('custom-header');
 add_theme_support('custom-footer');
 add_theme_support('post-thumbnails');
+
+// Remove base widht/height for thumbnail img
+add_filter('post_thumbnail_html', 'remove_thumbnail_dimensions', 10, 3);
+
+function remove_thumbnail_dimensions($html, $post_id, $post_image_id)
+{
+    $html = preg_replace('/(width|height)=\"\d*\"\s/', "", $html);
+    return $html;
+}
 
 
 

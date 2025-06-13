@@ -13,8 +13,6 @@ wp-content/*
 !wp-content/themes/vieux-moulin-25
 !wp-content/themes/vieux-moulin-25/*
 !wp-content/themes/vieux-moulin-25/**/*
-wp-content/themes/vieux-moulin-25/public/
-wp-content/themes/vieux-moulin-25/public/*
 
 
 /**/.DS_Store

@@ -80,8 +80,6 @@ if (have_rows('main-content')): while (have_rows('main-content')):
             <?php endwhile; ?>
 
         </div>
-
-    <?php //TODO add "articles" page here ?>
         <a href="<?= '/articles' ?>" class="content__navlink" title="Vers la page des articles">Toutes les nouveautés</a>
     <?php else: ?>
         <p>Pas d’articles associés.</p>
