@@ -17,7 +17,6 @@ if (have_rows('main-content')): while (have_rows('main-content')):
             'post_status' => 'publish',
 //        'posts_per_page' => 6,
             'orderby' => 'date',
-//        'order' => 'DESC',
         ]);
         if ($sites->have_posts()): while ($sites->have_posts()): $sites->the_post(); ?>
             <a href="<?= get_page_link() ?>" class="content__site__link">
