@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 84 84">
+    <clipPath id="arrow-r" clipPathUnits="objectBoundingBox" transform="scale(0.0119047619 0.0119047619)">
+        <path fill-rule="evenodd"
+              d="M42 84a42 42 0 1 1 0-84 42 42 0 0 1 0 84ZM24 9a4 4 0 0 1 6 0c10 11 22 20 35 27 2 1 6 3 6 6s-4 5-6 6a165 165 0 0 0-36 28 4 4 0 0 1-5-1c-6-7 17-25 21-28l8-5-8-5c-4-3-27-21-21-28Z"
+              clip-rule="evenodd"/>
+    </clipPath>
+</svg>

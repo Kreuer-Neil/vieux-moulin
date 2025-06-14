@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 685 412">
+    <clipPath id="1" clipPathUnits="objectBoundingBox" transform="scale(0.001459854015 0.002427184466)">
+        <path d="M684 243c0 146-151 164-254 168s-176-7-211-22c-35-14-139 14-180-9S-4 285 3 208C14 85 172 50 265 12c77-31 239 5 318 38s101 47 101 193Z"/>
+    </clipPath>
+    <clipPath id="2" clipPathUnits="objectBoundingBox" transform="scale(0.001464128843 0.002481389578)">
+        <path d="M683 70C675-2 591-6 536 5 463 19 40 13 5 182s151 95 227 145c76 49 351 126 405 30 30-55 54-216 46-287Z"/>
+    </clipPath>
+    <clipPath id="3" clipPathUnits="objectBoundingBox" transform="scale(0.001501501502 0.00253164557)">
+        <path d="M421 376c-100 22-351 9-394-94C-16 180-49-87 280 51c84 35 287-120 362 36 87 180-75 258-221 289Z"/>
+    </clipPath>
+</svg>

@@ -1,0 +1,39 @@
+//* Footer
+
+
+.footer {
+  padding: var(--number-padding-simple) var(--number-padding-medium);
+  background-color: var(--color-main-subframe-alt);
+  display: flex;
+  flex-direction: column;
+
+  &__container {
+    display: flex;
+    justify-content: flex-start;
+    gap: var(--number-padding-simple);
+    max-width: var(--number-max-container-width);
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--number-padding-small);
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      gap: var(--number-padding-mini);
+    }
+
+    &__li {
+    }
+
+    &__link {
+    }
+  }
+
+  &__copyright {
+    text-align: center;
+  }
+}

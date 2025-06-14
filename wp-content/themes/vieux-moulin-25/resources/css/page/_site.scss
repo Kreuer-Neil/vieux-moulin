@@ -1,0 +1,107 @@
+@use "../settings/breakpoints" as b;
+
+#main:has(.siteimg) {
+  position: relative;
+  overflow-y: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 999rem;
+    z-index: -3;
+
+    background: url("../svg/bg-site.svg") repeat-y center top;
+  }
+}
+
+.siteimg {
+  margin: var(--number-padding-small);
+  display: grid;
+  @include b.md {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__text {
+    max-width: var(--number-max-text-width);
+    padding: 0 var(--number-padding-small);
+  }
+
+  &__subcontainer {
+    position: relative;
+    width: 100%;
+    max-width: 42.75rem;
+    max-height: 25.125rem;
+    aspect-ratio: 684/412;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+
+      width: 100%;
+      height: 100%;
+      clip-path: url("../svg/site-img-bg.svg#1");
+      -webkit-clip-path: url("../svg/site-img-bg.svg#1");
+      background-color: var(--color-main-subframe-alt);
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding: var(--number-padding-small);
+    align-items: center;
+
+    &:nth-child(3n+2) .siteimg {
+      &__subcontainer {
+        aspect-ratio: 684/402;
+
+        &::before {
+          content: '';
+          -webkit-clip-path: url("../svg/site-img-bg.svg#2");
+          clip-path: url("../svg/site-img-bg.svg#2");
+          background-color: var(--color-main-subframe);
+        }
+      }
+
+      &__img {
+        left: 1.25%;
+        top: 2.5%;
+      }
+    }
+
+    &:nth-child(3n) .siteimg {
+      &__subcontainer {
+        aspect-ratio: 684/395;
+
+        &::before {
+          -webkit-clip-path: url("../svg/site-img-bg.svg#3");
+          clip-path: url("../svg/site-img-bg.svg#3");
+          background-color: var(--color-main-subframe-alt2);
+        }
+      }
+
+      &__img {
+        left: 3.4%;
+        top: 7%;
+      }
+    }
+  }
+
+  &__img {
+    position: absolute;
+    left: 3%;
+    top: 5.5%;
+    aspect-ratio: 36/65;
+    width: 95%;
+    height: 90%;
+    border-radius: var(--number-padding-mini);
+  }
+
+}
+

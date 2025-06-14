@@ -1,0 +1,71 @@
+//* General style
+
+
+.custom-theme {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-main-bg);
+  font-family: var(--font-fam-text);
+  overflow-x: hidden;
+  //Pour des tests
+  scroll-behavior: smooth;
+
+  &:has(#burger-menu:checked) {
+    overflow-y: hidden;
+  }
+
+
+  main {
+    padding: var(--number-padding-double) 0;
+
+    display: flex;
+    gap: var(--number-gap-sections);
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-fam-titles);
+  text-align: center;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.3;
+}
+
+small {
+  font-size: var(--number-fsize-small);
+  line-height: 1.3;
+}
+
+// Admin bar is at 10000 -> adapt
+#escape-link {
+  position: fixed;
+  top: -5rem;
+  left: var(--number-padding-mini);
+  z-index: 5;
+  background-color: var(--color-main-bg);
+  padding: var(--number-padding-medium) var(--number-padding-double);
+  height: auto;
+
+  &:focus {
+    top: var(--number-padding-mini);
+  }
+}
+
+// CTA button
+
+.cta {
+  padding: var(--number-padding-small) var(--number-padding-medium);
+  background-color: var(--color-main-cta-donation);
+  color: var(--color-cta-text);
+  border-radius: var(--number-cta-radius);
+  font-size: var(--number-fsize-cta);
+
+  &--about {
+    background-color: var(--color-main-cta-about-donation);
+  }
+}

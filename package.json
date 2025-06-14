@@ -1,0 +1,34 @@
+{
+  "name": "vieux-moulin-25",
+  "version": "1.0.0",
+  "description": "For the vieux-moulin-25 theme",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "chokidar './wp-content/themes/vieux-moulin-25/ressources/js/app/**/*.js' './wp-content/themes/vieux-moulin-25/ressources/css/**/*' './wp-content/themes/vieux-moulin-25/ressources/svg/*' -c 'vite build'",
+    "serve": "browser-sync start --proxy 'http://vieux-moulin-25-project.test' --files 'wp-content/themes/vieux-moulin-25/public/**/*' --no-https --port 3000"
+  },
+  "keywords": [],
+  "author": "Neil Kreuer",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "browser-sync": "^3.0.3",
+    "chokidar-cli": "^3.0.0",
+    "glob": "^11.0.1",
+    "postcss": "^8.5.3",
+    "sass": "^1.86.0",
+    "vite": "^6.2.2"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "iOS >= 10",
+    "IE 11",
+    "not IE 10",
+    "Firefox ESR",
+    "Chrome >= 50",
+    "Android >= 4.4",
+    "Safari >= 9"
+  ]
+}

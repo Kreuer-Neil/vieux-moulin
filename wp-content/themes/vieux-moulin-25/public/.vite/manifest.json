@@ -1,0 +1,41 @@
+{
+  "wp-content/themes/vieux-moulin-25/resources/css/styles.scss": {
+    "file": "assets/css-Cs-N2Ick.css",
+    "src": "wp-content/themes/vieux-moulin-25/resources/css/styles.scss",
+    "isEntry": true
+  },
+  "wp-content/themes/vieux-moulin-25/resources/fonts/DejaVuSans.ttf": {
+    "file": "assets/DejaVuSans-CHjR2eXl.ttf",
+    "src": "wp-content/themes/vieux-moulin-25/resources/fonts/DejaVuSans.ttf"
+  },
+  "wp-content/themes/vieux-moulin-25/resources/fonts/Poppins-Bold.otf": {
+    "file": "assets/Poppins-Bold-B82WzWXB.otf",
+    "src": "wp-content/themes/vieux-moulin-25/resources/fonts/Poppins-Bold.otf"
+  },
+  "wp-content/themes/vieux-moulin-25/resources/fonts/Poppins-Regular.otf": {
+    "file": "assets/Poppins-Regular-Bnr16EOz.otf",
+    "src": "wp-content/themes/vieux-moulin-25/resources/fonts/Poppins-Regular.otf"
+  },
+  "wp-content/themes/vieux-moulin-25/resources/js/main.js": {
+    "file": "assets/js-D8xaAhvD.js",
+    "name": "js",
+    "src": "wp-content/themes/vieux-moulin-25/resources/js/main.js",
+    "isEntry": true
+  },
+  "wp-content/themes/vieux-moulin-25/resources/svg/bg-site.svg": {
+    "file": "assets/bg-site-BWoH_vzR.svg",
+    "src": "wp-content/themes/vieux-moulin-25/resources/svg/bg-site.svg"
+  },
+  "wp-content/themes/vieux-moulin-25/resources/svg/burger-menu.svg": {
+    "file": "assets/burger-menu-CaZBzrE0.svg",
+    "src": "wp-content/themes/vieux-moulin-25/resources/svg/burger-menu.svg"
+  },
+  "wp-content/themes/vieux-moulin-25/resources/svg/site-img-bg.svg": {
+    "file": "assets/site-img-bg-Cc0c7bHQ.svg",
+    "src": "wp-content/themes/vieux-moulin-25/resources/svg/site-img-bg.svg"
+  },
+  "wp-content/themes/vieux-moulin-25/resources/svg/slider-arrow.svg": {
+    "file": "assets/slider-arrow-DZpqA5Ku.svg",
+    "src": "wp-content/themes/vieux-moulin-25/resources/svg/slider-arrow.svg"
+  }
+}

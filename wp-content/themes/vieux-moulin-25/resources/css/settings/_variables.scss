@@ -1,0 +1,103 @@
+:root {
+  font-size: 16px;
+
+  //* Base common colors
+
+  --color-untrue-black: #1E1B16;
+  --color-untrue-white: #F2F2F2;
+  --color-grey-white: #d3d3d3;
+  --color-modal-bg: #41434480;
+
+  // Logo colors
+  --color-vm-original-yellow: #FDD87A;
+  --color-vm-original-water-dark: #295B96;
+  --color-vm-original-water-med: #33A8BC;
+  --color-vm-original-water-light: #A9D6DC;
+  --color-grass-green: #BEDF85;
+
+  //Other
+  --color-vm-dimmed-yellow: #FEE99D;
+  --color-vm-dimmed-water-light: #C2E9EE;
+  --color-dimmed-grass: #BEDF85;
+
+  --color-eyecatching-red: #AD1717;
+
+
+  //* Dark theme exclusive colors
+
+
+  //* Theme specific colors
+  --color-main-text: var(--color-untrue-black);
+  --color-main-bg: #fff;
+  --color-main-alt-bg: var(--color-untrue-white);
+
+  --color-main-subframe: var(--color-vm-original-yellow);
+  --color-main-subframe-alt: var(--color-vm-original-water-light);
+  --color-main-subframe-alt2: var(--color-grass-green);
+  --color-main-cta-donation: var(--color-eyecatching-red);
+  --color-main-cta-about-donation: var(--color-vm-original-water-dark);
+  --color-cta-text: var(--color-untrue-white);
+
+
+  //* Numbers
+  // maximums
+  --number-max-container-width: 90rem; //1440px
+  --number-max-container-height: 67.5rem; //1080px
+  --number-max-container-width-extended: 120rem; // 1920px
+  --number-max-text-width: 45rem; //720px
+  --number-max-article-width: 30rem; //720px
+  --number-max-burger-menu-width: 24rem; //384px
+  --number-max-partnership-logos-height: 9rem; //
+  --number-max-qrcode-width: 20rem;
+
+  // Paddings
+  --number-padding-little: .125rem; // 2px
+  --number-padding-mini: .25rem; // 4px
+  --number-padding-small: .5rem; // 8px
+  --number-padding-simple: .75rem; // 12px
+  --number-padding-medium: 1rem; // 16px
+  --number-padding-double: 1.5rem; // 24px
+  --number-padding-semiheavy: 2rem; // 32px
+  --number-padding-heavy: 3rem; // 48px
+
+  // Font sizes
+  --number-fsize-title: 2.5rem;
+  --number-fsize-section-title: 2rem;
+  --number-fsize-navbar: 1.25rem;
+  --number-fsize-subtitle: 1.5rem;
+  --number-fsize-cta: 1.125rem;
+  --number-fsize-small: .75rem;
+
+  // Auto gaps
+  --number-gap-sections: 1.5rem;
+  --number-gap-articles: .75rem;
+
+  // Items sizes
+  --number-main-navbar-height: 4.5rem;
+
+  // Border radiuses
+  --number-container-radius: .5rem;
+  --number-subcontainer-radius: .25rem;
+  --number-cta-radius: 1.5rem;
+
+  // Site card values
+  --color-site-title-bg: #F2F2F2B3;
+  --number-site-ratio-large: 0.8 / 1;
+  --number-max-site-width: 28.125rem;
+  --number-site-title-height: 3rem;
+
+  // Article card values
+  --number-article-thingy: 2.75rem;
+
+
+  //* URLs
+
+
+  //* Animations
+  --anim-none: none;
+
+  //* font-families
+  --font-fam-text: "Poppins", Helvetica, Arial, sans-serif;
+  --font-fam-titles: "DejaVu Sans", Helvetica, Arial, sans-serif;
+  --font-fam-cta: "Poppins Bold", Helvetica, Arial, sans-serif;
+}
