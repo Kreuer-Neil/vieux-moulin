@@ -15,7 +15,7 @@ if (have_posts()): while (have_posts()): the_post(); ?>
                 <article class="siteimg__container">
                     <h2 class="sro"><?= $title = get_sub_field('title') ?></h2>
                     <div class="siteimg__subcontainer">
-                        <img src="<?= $img['url'] ?>" alt="<?= $img['alt'] ?>" class="siteimg__img"
+                        <img src="<?= $img['sizes']['medium'] ?>" alt="<?= $img['alt'] ?>" class="siteimg__img"
                              width="650" height="360" title="<?= $title ?>">
                     </div>
                     <p class="siteimg__text"><?= get_sub_field('text_content') ?></p>

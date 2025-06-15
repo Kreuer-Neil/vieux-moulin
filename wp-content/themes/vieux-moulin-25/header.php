@@ -20,7 +20,7 @@
 
             <div class="slider__container">
 
-                <article class="slider__item slider__item--mutiple">
+                <article class="slider__item">
                     <?= get_the_post_thumbnail(size: 'medium', attr: ['width' => '960', 'height' => '1008', 'class' => 'slider__img']); ?>
                     <div class="slider__subcontainer">
                         <h3 class="slider__title"><?= get_field('thumbnail_title') ?></h3>
@@ -30,8 +30,8 @@
 
                 <?php while (have_rows('slider')): the_row();
                     $image = get_sub_field('image') ?>
-                    <article class="slider__item slider__item--mutiple">
-                        <img src="<?= $image['url'] ?>" alt="<?= $image['alt'] //TODO add SRCset   ?>" width="960"
+                    <article class="slider__item">
+                        <img src="<?= $image['sizes']['medium'] ?>" alt="<?= $image['alt'] ?>" width="960"
                              height="1008" class="slider__img">
                         <div class="slider__subcontainer">
                             <h3 class="slider__title"><?= get_sub_field('title') ?></h3>
